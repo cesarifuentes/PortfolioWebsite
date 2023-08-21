@@ -1,3 +1,3 @@
 # PortfolioWebsite
-# PortfolioWebsite
-# PortfolioWebsite
+
+npm run dev
