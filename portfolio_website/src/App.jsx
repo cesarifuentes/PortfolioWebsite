@@ -16,10 +16,11 @@ const App = () => (
         {/* RIGHT - CONTENT */}
         <div className="w-7/12 bg-teal-400">
           {/* TODO: pt-24 lg:w-1/2 lg:py-24 */}
-          ...
-          {/* <About />
-          <Projects />
-          <Experience /> */}
+          <div className="max-w-[544px]">
+            <About />
+            <Projects />
+            <Experience />
+          </div>
         </div>
       </div>
     </div>

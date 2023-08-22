@@ -3,7 +3,7 @@ import { socialMedias } from "../constants";
 
 const Sidebar = () => {
   return (
-    <div className="min-h-screen w-[432px] p-5 bg-slate-400">
+    <div className="min-h-screen w-[432px] p-5">
       <h1>
         I build websites to deliver engaging, user-friendly online experiences.
       </h1>

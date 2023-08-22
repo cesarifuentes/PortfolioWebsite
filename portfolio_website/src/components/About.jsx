@@ -4,10 +4,12 @@ import { paragraphs } from "../constants";
 const About = () => {
   return (
     <div>
-      About
+      <h3>ABOUT</h3>
+      <br />
       {paragraphs.map((paragraph) => (
         <div key={paragraph.id} className="bg-primary">
-          <h1>{paragraph.text}</h1>
+          <p>{paragraph.text}</p>
+          <br />
         </div>
       ))}
     </div>
