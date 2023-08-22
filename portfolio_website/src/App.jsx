@@ -9,7 +9,7 @@ const App = () => (
       <div className="flex justify-between">
         {/* TODO: lg:flex lg:justify-between lg:gap-4 */}
         {/* LEFT - HEADER */}
-        <div className="w-5/12 min-h-screen flex-col sticky bg-amber-400">
+        <div className="w-5/12 max-h-screen flex-col sticky top-0 bg-amber-400">
           {/* TODO: lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 */}
           <Sidebar />
         </div>

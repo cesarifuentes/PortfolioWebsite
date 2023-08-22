@@ -3,7 +3,7 @@ import { paragraphs } from "../constants";
 
 const About = () => {
   return (
-    <div>
+    <section>
       <h3>ABOUT</h3>
       <br />
       {paragraphs.map((paragraph) => (
@@ -12,7 +12,7 @@ const About = () => {
           <br />
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
