@@ -1,11 +1,15 @@
 import React from "react";
-import { aboutParagraphs } from "../constants";
+import { paragraphs } from "../constants";
 
 const About = () => {
   return (
     <div>
       About
-      {/* <div>aboutParagraphs</div> */}
+      {paragraphs.map((paragraph) => (
+        <div key={paragraph.id} className="bg-primary">
+          <h1>{paragraph.text}</h1>
+        </div>
+      ))}
     </div>
   );
 };

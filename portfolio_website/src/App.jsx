@@ -4,17 +4,25 @@ import { Sidebar, About, Projects, Experience } from "./components";
 
 const App = () => (
   <div>
-    <div className="mx-auto min-h-screen max-w-[1328px]">
+    <div className="mx-auto min-h-screen max-w-[1328px] bg-slate-400">
       {/*  TODO: px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 */}
-      container of size 1328
-      <div className="bg-lime-400">hellor</div>
+      <div className="flex justify-between">
+        {/* TODO: lg:flex lg:justify-between lg:gap-4 */}
+        {/* LEFT - HEADER */}
+        <div className="w-5/12 min-h-screen flex-col sticky bg-amber-400">
+          {/* TODO: lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 */}
+          <Sidebar />
+        </div>
+        {/* RIGHT - CONTENT */}
+        <div className="w-7/12 bg-teal-400">
+          {/* TODO: pt-24 lg:w-1/2 lg:py-24 */}
+          ...
+          {/* <About />
+          <Projects />
+          <Experience /> */}
+        </div>
+      </div>
     </div>
-    <div className="w-50 mx-auto bg-lime-400">container of size 1328</div>
-
-    <Sidebar />
-    <About />
-    <Projects />
-    <Experience />
   </div>
 );
 

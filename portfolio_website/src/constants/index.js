@@ -15,25 +15,28 @@ import space_sim from "../assets/space_sim.png";
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
 
-export const socialMedia = [
+export const socialMedias = [
   {
     id: "social-media-1",
+    name: "linkedin",
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
   {
     id: "social-media-2",
+    name: "github",
     icon: github,
     link: "https://www.github.com/",
   },
   {
     id: "social-media-3",
+    name: "gmail",
     icon: gmail,
     link: "fuentesivancesar@gmail.com",
   },
 ];
 
-export const aboutParagraphs = [
+export const paragraphs = [
   {
     id: "paragraph-1",
     text: "Hey there, I'm Cesar! I'm passionate about crafting interactive and polished websites that leave a lasting impression. With a specialization in React and Node.js, I thrive on bringing dynamic user experiences to life. I'm currently working on elevating my skills in full-stack web development. As I continue to grow in this industry, I'm excited to create solutions that empower users across the world.",
