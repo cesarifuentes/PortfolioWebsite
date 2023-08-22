@@ -1,21 +1,26 @@
 import React from "react";
 import styles from "./styles";
-import { About, Projects, Experience } from "./components";
+import { Sidebar, About, Projects, Experience } from "./components";
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <h1>Hello, World</h1>
-    <p>Quick question</p>
+  <div>
+    <div className="mx-auto min-h-screen max-w-[1328px]">
+      {/*  TODO: px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 */}
+      container of size 1328
+      <div className="bg-lime-400">hellor</div>
+    </div>
+    <div className="w-50 mx-auto bg-lime-400">container of size 1328</div>
+
+    <Sidebar />
     <About />
     <Projects />
-
     <Experience />
   </div>
 );
 
-//  `${styles.boxWidth}`
-
 export default App;
+
+//  `${styles.boxWidth}`
 
 // import { useState } from "react";
 // // import reactLogo from "./assets/react.svg";

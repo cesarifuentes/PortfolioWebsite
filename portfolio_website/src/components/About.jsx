@@ -1,7 +1,13 @@
 import React from "react";
-import { navLinks } from "../constants";
+import { aboutParagraphs } from "../constants";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      About
+      {/* <div>aboutParagraphs</div> */}
+    </div>
+  );
 };
 
 export default About;
