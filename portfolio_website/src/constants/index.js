@@ -101,10 +101,10 @@ export const experiences = [
   },
 ];
 
-export const resumes = [
+export const resume = [
   {
     id: "resume-1",
-    file: linkedin,
+    file: space_sim,
   },
 ];
 

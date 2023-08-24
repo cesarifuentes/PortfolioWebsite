@@ -1,14 +1,12 @@
 import React from "react";
-import { experiences } from "../constants";
+import { experiences, resume } from "../constants";
 
 const Experience = () => {
   return (
     <section>
       <h3 className="gradient_text">EXPERIENCE</h3>
       <br />
-
       {/* company and date */}
-
       {experiences.map((experience) => (
         <div
           key={experience.id}
@@ -32,6 +30,12 @@ const Experience = () => {
           <br />
         </div>
       ))}
+      {/* Download Link */}
+      <a href={resume[0].file} download>
+        <p className="underline underline-offset-4 ">
+          Download resume (PDF 896kb)
+        </p>
+      </a>
     </section>
   );
 };
