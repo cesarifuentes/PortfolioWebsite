@@ -7,8 +7,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #1b1f25;
 
   font-synthesis: none; /* whether browser may synthesize typefaces when missing in font-family */
   text-rendering: optimizeLegibility; /* as read */
@@ -49,7 +49,7 @@ h4 {
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1;
   font-weight: 500;
 }
@@ -61,4 +61,23 @@ p {
 
 section {
   margin-bottom: 100px;
+}
+
+.gradient_text {
+  /* Fallback: Set a background color. */
+  background-color: #ac42ff;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(90deg, #ac42ff, #ff008a);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }

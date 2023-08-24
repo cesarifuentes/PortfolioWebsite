@@ -4,7 +4,7 @@ import { experiences } from "../constants";
 const Experience = () => {
   return (
     <section>
-      <h3>EXPERIENCE</h3>
+      <h3 className="gradient_text">EXPERIENCE</h3>
       <br />
 
       {/* company and date */}
@@ -26,7 +26,7 @@ const Experience = () => {
           </div>
           {/* TEXT */}
           <div className="col-span-2">
-            <h4>{experience.title}</h4>
+            <h4 className="text-white">{experience.title}</h4>
             <p>{experience.description}</p>
           </div>
           <br />

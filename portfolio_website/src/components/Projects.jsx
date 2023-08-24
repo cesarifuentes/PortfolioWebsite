@@ -4,7 +4,7 @@ import { projects } from "../constants";
 const Projects = () => {
   return (
     <section>
-      <h3>PROJECTS</h3>
+      <h3 className="gradient_text">PROJECTS</h3>
       <br />
 
       {projects.map((project) => (
@@ -24,7 +24,7 @@ const Projects = () => {
           </div>
           {/* TEXT */}
           <div className="col-span-2">
-            <h4>{project.title}</h4>
+            <h4 className="text-white">{project.title}</h4>
             <p>{project.description}</p>
           </div>
           <br />

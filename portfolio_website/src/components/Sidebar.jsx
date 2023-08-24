@@ -3,13 +3,17 @@ import { socialMedias } from "../constants";
 
 const Sidebar = () => {
   return (
-    <div className="lg:min-h-screen w-[432px] lg:p-5 mx-auto lg:ml-0 bg-red-400">
-      <h1 className="pb-11 lg:pb-0">
-        I build websites to deliver engaging, user-friendly online experiences.
+    <div className="mx-auto lg:ml-0 lg:min-h-screen max-w-[544px] lg:w-[432px]  ">
+      {/* Title */}
+      <h1 className="mt-5 lg:mt-20 pb-11 lg:pb-0 text-white">
+        I build websites to deliver engaging, user-friendly{" "}
+        <span className="gradient_text">online </span>
+        <span className="gradient_text">experiences</span>.
       </h1>
-      <div className="lg:p-5 lg:absolute lg:bottom-0 lg:left-0 ">
-        <h2>Cesar Fuentes</h2>
-        <h6>Web Developer</h6>
+      {/* Signature */}
+      <div className="mb-0 lg:mb-20 lg:absolute lg:bottom-0 lg:left-0 ">
+        <h2 className="mb-1 text-white">Cesar Fuentes</h2>
+        <h6 className="mb-3 text-white">Web Developer</h6>
         <div className="flex">
           {socialMedias.map((socialMedia, index) => (
             <div

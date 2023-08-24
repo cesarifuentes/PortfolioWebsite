@@ -6,13 +6,15 @@ const App = () => (
   <div>
     <div className="flex flex-col lg:flex-row lg:max-w-[1328px] lg:mx-auto mx-5">
       {/* LEFT - HEADER */}
-      <div className="lg:sticky lg:top-0 lg:max-h-screen lg:w-5/12  bg-amber-400 ">
+      <div className="lg:sticky lg:top-0 lg:max-h-screen lg:w-5/12  ">
+        {/*  bg-amber-400 */}
         <Sidebar />
       </div>
-      <br />
+      {/* <br /> */}
       {/* RIGHT - CONTENT */}
-      <div className="lg:w-7/12 bg-teal-400">
-        <div className="max-w-[544px]">
+      <div className="lg:w-7/12  ">
+        {/* bg-teal-400 */}
+        <div className="max-w-[544px] mx-auto lg:ml-0 mt-20 ">
           <About />
           <Projects />
           <Experience />
