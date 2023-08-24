@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./styles";
 import { Sidebar, About, Projects, Experience } from "./components";
 
+// TODO: add icons for languages
+
 const App = () => (
   <div>
     <div className="flex flex-col lg:flex-row lg:max-w-[1328px] lg:mx-auto mx-5">
@@ -12,12 +14,15 @@ const App = () => (
       </div>
       {/* <br /> */}
       {/* RIGHT - CONTENT */}
-      <div className="lg:w-7/12  ">
+      <div className="lg:w-7/12">
         {/* bg-teal-400 */}
-        <div className="max-w-[544px] mx-auto lg:ml-0 mt-20 ">
+        <div className="max-w-[544px] mx-auto  mt-20 ">
           <About />
           <Projects />
           <Experience />
+          <section>
+            <p>© Cesar Fuentes 2023. All rights reserved.</p>
+          </section>
         </div>
       </div>
     </div>

@@ -12,6 +12,11 @@ const About = () => {
           <br />
         </div>
       ))}
+
+      <h3>things</h3>
+      <div className="w-[50px] h-[50px] bg-slate-600 rounded-lg border border-black shadow-inner shadow-2xl">
+        b
+      </div>
     </section>
   );
 };
