@@ -16,7 +16,7 @@ const Experience = () => {
           <div className="row-span-2 sm:col-span-2">
             <a href={experience.link} target="_blank">
               <img
-                className="object-cover rounded w-[288px] h-[190px] sm:w-[144px] sm:h-[95px] "
+                className="object-cover rounded"
                 src={experience.image}
                 alt={experience.title}
               />

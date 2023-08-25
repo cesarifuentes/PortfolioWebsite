@@ -17,12 +17,13 @@
   -webkit-text-size-adjust: 100%; /* controls the text inflation algorithm used on some smartphones and tablets */
 }
 
-body {
+body,
+html {
+  border: 0;
+  height: 100%;
   margin: 0;
-  /* display: flex; */
-  /* place-items: center; */
-  /* min-width: 320px;
-  min-height: 100vh; */
+  padding: 0;
+  width: 100%;
 }
 
 p {
@@ -49,17 +50,15 @@ h6 {
 }
 
 @media only screen and (min-width: 640px) {
-  /* H1 */
   h1 {
     font-size: 4rem;
   }
-  /* font-size: 4.5rem; */
-  /* H2 */
-  /* font-size: 2em; */
-  /* H3 */
-  /* H4 */
-  /* H5 */
-  /* H6  */
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 h3 {
