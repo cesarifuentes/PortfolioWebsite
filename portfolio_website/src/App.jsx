@@ -2,21 +2,19 @@ import React from "react";
 import styles from "./styles";
 import { Sidebar, About, Projects, Experience } from "./components";
 
-// TODO: add icons for languages
-
 const App = () => (
   <div>
-    <div className="flex flex-col lg:flex-row lg:max-w-[1328px] lg:mx-auto mx-5">
+    <div className="mx-5 sm:mx-30 overflow-x-hidden flex flex-col md:flex-row md:max-w-[1328px] md:mx-auto ">
       {/* LEFT - HEADER */}
-      <div className="lg:sticky lg:top-0 lg:max-h-screen lg:w-5/12  ">
+      <div className="mt-5 md:mt-20 lg:mt-0 lg:sticky lg:top-0 lg:max-h-screen lg:w-5/12 ">
         {/*  bg-amber-400 */}
         <Sidebar />
       </div>
       {/* <br /> */}
       {/* RIGHT - CONTENT */}
-      <div className="lg:w-7/12">
+      <div className="lg:w-7/12 ">
         {/* bg-teal-400 */}
-        <div className="max-w-[544px] mx-auto  mt-20 ">
+        <div className="w-full  mx-auto  mt-20 ">
           <About />
           <Projects />
           <Experience />

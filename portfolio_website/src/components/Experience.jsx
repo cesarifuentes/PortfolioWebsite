@@ -10,24 +10,23 @@ const Experience = () => {
       {experiences.map((experience) => (
         <div
           key={experience.id}
-          className="bg-primary group relative grid  grid-cols-3 "
+          className="relative grid gap-4 mb-12 sm:grid-rows-1 sm:grid-cols-3 "
         >
           {/* IMAGE */}
-          <div className="col-span-1">
+          <div className="row-span-2 sm:col-span-1">
             <a href={experience.link} target="_blank">
               <img
-                className="object-cover w-[144px] h-[95px] rounded"
+                className="object-cover rounded w-[288px] h-[190px] sm:w-[144px] sm:h-[95px] "
                 src={experience.image}
                 alt={experience.title}
               />
             </a>
           </div>
           {/* TEXT */}
-          <div className="col-span-2">
+          <div className="row-span-1 sm:col-span-2">
             <h4 className="text-white">{experience.title}</h4>
             <p>{experience.description}</p>
           </div>
-          <br />
         </div>
       ))}
       {/* Download Link */}

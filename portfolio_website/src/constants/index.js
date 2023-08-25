@@ -15,6 +15,13 @@ import space_sim from "../assets/space_sim.png";
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
 
+import figma from "../assets/figma.png";
+import react from "../assets/react.png";
+import tailwind from "../assets/tailwind.png";
+import angular from "../assets/angular.png";
+import sass from "../assets/sass.png";
+import nodejs from "../assets/nodejs.png";
+
 export const socialMedias = [
   {
     id: "social-media-1",
@@ -48,6 +55,39 @@ export const paragraphs = [
   {
     id: "paragraph-3",
     text: "When I’m not furiously typing at my computer, you’ll find me playing Dead by Daylight, dedicating time to volunteer for the youth in my community, and creating art.",
+  },
+];
+
+export const skills = [
+  {
+    id: "skill-1",
+    name: "figma",
+    icon: figma,
+  },
+  {
+    id: "skill-2",
+    name: "react",
+    icon: react,
+  },
+  {
+    id: "skill-3",
+    name: "tailwind",
+    icon: tailwind,
+  },
+  {
+    id: "skill-14",
+    name: "angular",
+    icon: angular,
+  },
+  {
+    id: "skill-5",
+    name: "sass",
+    icon: sass,
+  },
+  {
+    id: "skill-6",
+    name: "nodejs",
+    icon: nodejs,
   },
 ];
 

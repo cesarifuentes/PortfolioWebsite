@@ -25,16 +25,41 @@ body {
   min-height: 100vh; */
 }
 
+p {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 h1 {
-  font-size: 4em;
+  font-size: 3.5rem;
   line-height: 1;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.2em;
   line-height: 1;
   font-weight: 900;
+}
+
+h6 {
+  font-size: 1em;
+  line-height: 1;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 640px) {
+  /* H1 */
+  h1 {
+    font-size: 4rem;
+  }
+  /* font-size: 4.5rem; */
+  /* H2 */
+  /* font-size: 2em; */
+  /* H3 */
+  /* H4 */
+  /* H5 */
+  /* H6  */
 }
 
 h3 {
@@ -46,17 +71,6 @@ h4 {
   font-size: 1em;
   /* line-height: 1; */
   font-weight: 700;
-}
-
-h6 {
-  font-size: 1.5em;
-  line-height: 1;
-  font-weight: 500;
-}
-
-p {
-  font-size: 1em;
-  color: rgba(255, 255, 255, 0.8);
 }
 
 section {

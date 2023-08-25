@@ -1,5 +1,5 @@
 import React from "react";
-import { paragraphs } from "../constants";
+import { paragraphs, skills } from "../constants";
 
 const About = () => {
   return (
@@ -13,9 +13,16 @@ const About = () => {
         </div>
       ))}
 
-      <h3>things</h3>
-      <div className="w-[50px] h-[50px] bg-slate-600 rounded-lg border border-black shadow-inner shadow-2xl">
-        b
+      <div className="flex flex-wrap">
+        {skills.map((skill) => (
+          <div
+            key={skill.id}
+            className="w-[50px] h-[50px] grid place-content-center mr-3 mb-3 rounded-lg border border-black hover:drop-shadow-xl"
+            style={{ backgroundColor: "#24292F" }}
+          >
+            <img src={skill.icon} alt={skill.text} />
+          </div>
+        ))}
       </div>
     </section>
   );

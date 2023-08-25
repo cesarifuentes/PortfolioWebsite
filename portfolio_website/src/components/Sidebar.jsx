@@ -3,7 +3,9 @@ import { socialMedias } from "../constants";
 
 const Sidebar = () => {
   return (
-    <div className="mx-auto lg:ml-0 lg:min-h-screen max-w-[544px] lg:w-[432px]  ">
+    <div className="max-w-[300px] ml-0 lg:min-h-screen  w-full lg:w-[432px]  ">
+      {/* TODO: medium ish */}
+      {/* mx-auto lg:ml-0 */}
       {/* Title */}
       <h1 className="mt-5 lg:mt-20 pb-11 lg:pb-0 text-white">
         I build websites to deliver engaging, user-friendly{" "}
