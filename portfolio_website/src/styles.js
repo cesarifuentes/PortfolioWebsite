@@ -1,4 +1,6 @@
 const styles = {
+  // selected1: "border border-red-400/20",
+  // selected2: "border border-blue-400/20",
   //   boxWidth: "xl:max-w-[1280px] w-full",
   //   heading2:
   //     "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",

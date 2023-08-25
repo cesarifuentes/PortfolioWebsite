@@ -5,16 +5,18 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      // xs: "480px",
-      // ss: "620px",
-      // sm: "768px",
-      // md: "1060px",
-      // lg: "1200px",
-      // lg: "1328px",
-      lg: "1428px",
-
-      // xl: "1700px",
+      sm: "640px",
+      md: "769px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   plugins: [],
 };
+
+// xs: "320px",
+// ss: "640px",
+
+// lg: "1328px",
+// lg: "1428px",
+// xl: "1700px",

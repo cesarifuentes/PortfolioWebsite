@@ -10,10 +10,10 @@ const Experience = () => {
       {experiences.map((experience) => (
         <div
           key={experience.id}
-          className="relative grid gap-4 mb-12 sm:grid-rows-1 sm:grid-cols-3 "
+          className="relative grid gap-4 mb-12 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4"
         >
           {/* IMAGE */}
-          <div className="row-span-2 sm:col-span-1">
+          <div className="row-span-2 sm:col-span-2">
             <a href={experience.link} target="_blank">
               <img
                 className="object-cover rounded w-[288px] h-[190px] sm:w-[144px] sm:h-[95px] "
@@ -23,7 +23,7 @@ const Experience = () => {
             </a>
           </div>
           {/* TEXT */}
-          <div className="row-span-1 sm:col-span-2">
+          <div className="row-span-1 sm:col-span-6">
             <h4 className="text-white">{experience.title}</h4>
             <p>{experience.description}</p>
           </div>
