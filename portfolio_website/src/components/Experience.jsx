@@ -6,7 +6,7 @@ const Experience = () => {
     <section>
       <h3 className="gradient_text">EXPERIENCE</h3>
       <br />
-      {/* company and date */}
+      {/* TODO: company and date */}
       {experiences.map((experience) => (
         <div
           key={experience.id}
@@ -24,6 +24,7 @@ const Experience = () => {
           </div>
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
+            <p>{experience.date}</p>
             <h4 className="text-white">{experience.title}</h4>
             <p>{experience.description}</p>
           </div>
