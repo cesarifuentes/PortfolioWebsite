@@ -1,5 +1,5 @@
 import React from "react";
-import { socialMedias } from "../constants";
+import { socialMedias, resume } from "../constants";
 
 const Sidebar = () => {
   return (
@@ -16,13 +16,15 @@ const Sidebar = () => {
           I build things on the web to deliver engaging, user-friendly online
           experiences.
         </p>
-        <button class="bg-transparent border border-white py-2 px-4 rounded-full uppercase max-w-[100px]">
-          Resume
-        </button>
+        <a href={resume} download>
+          <button class="bg-transparent border border-white py-2 px-4 rounded-full uppercase max-w-[100px]">
+            Resume
+          </button>
+        </a>
       </div>
 
       {/* Signature */}
-      <div className="flex flex-col min-w-[420px] gap-3 mb-0 lg:mb-20 lg:absolute lg:bottom-0 lg:left-0 ">
+      <div className="flex flex-col gap-3 mb-0 lg:mb-20 lg:absolute lg:bottom-0 lg:left-0 ">
         <div className="line"></div>
 
         <div className="uppercase">

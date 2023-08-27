@@ -66,6 +66,12 @@ h1 {
   font-size: 6rem;
 }
 
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
 /* h2 {
   font-family: "HN-Medium";
   color: var(--white-1);
@@ -93,7 +99,7 @@ section {
   margin-bottom: 100px;
 }
 
-grayscale {
+.grayscale {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }

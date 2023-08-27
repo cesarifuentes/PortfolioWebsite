@@ -8,7 +8,7 @@ import { Sidebar, About, Projects, Experience } from "./components";
 // TODO: fix date text on xperience
 
 const App = () => (
-  <div className="p-10 lg:container sm:p-12 lg:min-h-screen lg:mx-auto">
+  <div className="p-5 lg:container sm:p-12 lg:min-h-screen lg:mx-auto">
     {/* md:p-16 lg:py-0 */}
     <div className="lg:flex lg:gap-4 lg:justify-between lg:max-w-[1280px]">
       {/* FIXME: LEFT - HEADER */}

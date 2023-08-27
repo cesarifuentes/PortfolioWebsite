@@ -1,16 +1,7 @@
-// TODO: why can't this simple import work
-// import {
-//   linkedin,
-//   github,
-//   gmail,
-//   space_sim,
-//   tamu,
-//   publicis,
-// } from "../src/assets";
-
 import space_sim from "../assets/space_sim.png";
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
+import pdf from "../assets/F_Cesar_Resume_[Date].pdf";
 
 export const socialMedias = [
   {
@@ -96,9 +87,4 @@ export const experiences = [
   },
 ];
 
-export const resume = [
-  {
-    id: "resume-1",
-    file: space_sim,
-  },
-];
+export const resume = pdf;
