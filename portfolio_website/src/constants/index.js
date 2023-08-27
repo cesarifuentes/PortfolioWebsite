@@ -8,86 +8,41 @@
 //   publicis,
 // } from "../src/assets";
 
-import linkedin from "../assets/linkedin.svg";
-import github from "../assets/github.svg";
-import gmail from "../assets/gmail.png";
 import space_sim from "../assets/space_sim.png";
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
-
-import figma from "../assets/figma.png";
-import react from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
-import angular from "../assets/angular.png";
-import sass from "../assets/sass.png";
-import nodejs from "../assets/nodejs.png";
 
 export const socialMedias = [
   {
     id: "social-media-1",
     name: "linkedin",
-    icon: linkedin,
     link: "https://www.linkedin.com/",
   },
   {
     id: "social-media-2",
     name: "github",
-    icon: github,
     link: "https://www.github.com/",
   },
   {
     id: "social-media-3",
     name: "gmail",
-    icon: gmail,
     link: "fuentesivancesar@gmail.com",
+  },
+  {
+    id: "social-media-4",
+    name: "dribble",
+    link: "https://www.dribbble.com/",
   },
 ];
 
 export const paragraphs = [
   {
     id: "paragraph-1",
-    text: "Hey there, I'm Cesar! I'm passionate about crafting interactive and polished websites that leave a lasting impression. With a specialization in React and Node.js, I thrive on bringing dynamic user experiences to life. I'm currently working on elevating my skills in full-stack web development. As I continue to grow in this industry, I'm excited to create solutions that empower users across the world.",
+    text: "This website serves as a curated showcase of my achievements throughout my tenure as a software developer. Within its digital confines, each project represents a profoundly meaningful milestone in my professional journey. These endeavors are meticulously crafted, resembling finely crafted pieces of art in their attention to detail and aesthetic quality.",
   },
   {
     id: "paragraph-2",
-    text: "My creative journey began in high school, where I took art and graphic design courses. Following that, I completed my B.S. in Computer Science at Texas A&M University, which is where I was exposed to web development and 3D graphics. Whether it's coding, designing, or conceptualizing, every venture I undertake is infused with an unmistakable artistic flair.",
-  },
-  {
-    id: "paragraph-3",
-    text: "When I’m not furiously typing at my computer, you’ll find me playing Dead by Daylight, dedicating time to volunteer for the youth in my community, and creating art.",
-  },
-];
-
-export const skills = [
-  {
-    id: "skill-1",
-    name: "figma",
-    icon: figma,
-  },
-  {
-    id: "skill-2",
-    name: "react",
-    icon: react,
-  },
-  {
-    id: "skill-3",
-    name: "tailwind",
-    icon: tailwind,
-  },
-  {
-    id: "skill-14",
-    name: "angular",
-    icon: angular,
-  },
-  {
-    id: "skill-5",
-    name: "sass",
-    icon: sass,
-  },
-  {
-    id: "skill-6",
-    name: "nodejs",
-    icon: nodejs,
+    text: "My foray into the realm of art commenced during my high school years, during which I pursued courses in art and graphic design, providing me with a strong foundation in artistic expression. Subsequently, I pursued a Bachelor of Science degree in Computer Science at Texas A&M University, where I had the opportunity to delve into the worlds of software development and 3D graphics.",
   },
 ];
 
@@ -147,13 +102,3 @@ export const resume = [
     file: space_sim,
   },
 ];
-
-// export const text = [
-//   {
-//     id: "text-1",
-//     title:
-//       "I build websites to deliver engaging, user-friendly online experiences.",
-//     name: "Cesar Fuentes",
-//     job: "Software Developer",
-//   },
-// ];
