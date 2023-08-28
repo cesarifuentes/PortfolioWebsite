@@ -26,15 +26,19 @@ const Sidebar = () => {
           I create engaging, user-friendly online experiences.
         </h1>
 
-        <a href={resume} download>
-          <button class="bg-transparent border-2 border-white py-2 px-5 rounded-full uppercase max-w-[300px]">
-            <h2 className="">Download Resume</h2>
-          </button>
-        </a>
+        <div>
+          <a href={resume} download>
+            <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase ">
+              <h2 className="">Download Resume</h2>
+            </button>
+          </a>
+        </div>
 
-        <button class="bg-transparent border-2 border-white py-2 px-5 rounded-full uppercase max-w-[300px]">
-          <h2 className="">Email Me</h2>
-        </button>
+        <div>
+          <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase max-w-[150px]">
+            <h2 className="">Email Me</h2>
+          </button>
+        </div>
       </div>
 
       {/* Bottom */}

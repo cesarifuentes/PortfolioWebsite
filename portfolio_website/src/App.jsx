@@ -2,14 +2,10 @@ import React from "react";
 import styles from "./styles";
 import { Sidebar, About, Projects, Experience } from "./components";
 
+// FIXME: missing frontend in title
 // TODO: make sure text highlighting is nromal
-// TODO: fix image fitting for projects
-// TODO: footer text
-// TODO: fix date text on xperience
-
-// TODO: flex space between 3 things
-// TODO: line widths
 // TODO: make scroll start early
+// TODO: resume button can press anywhere in div
 
 const App = () => (
   <div className="min-h-screen p-5 sm:p-7 lg:px-10 lg:p-0 lg:container lg:min-h-screen lg:mx-auto">
@@ -20,7 +16,7 @@ const App = () => (
         <Sidebar />
       </header>
       {/* FIXME: RIGHT - CONTENT */}
-      <div className="pt-20 lg:w-1/3">
+      <div className="pt-20 lg:w-2/5">
         {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
         <About />
         <Projects />

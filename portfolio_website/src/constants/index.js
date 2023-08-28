@@ -2,6 +2,8 @@ import space_sim from "../assets/space_sim.png";
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
 import pdf from "../assets/F_Cesar_Resume_[Date].pdf";
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 
 // TODO: update these links and stuff
 
@@ -9,17 +11,14 @@ export const socialMedias = [
   {
     id: "social-media-1",
     name: "linkedin",
+    icon: linkedin,
     link: "https://www.linkedin.com/",
   },
   {
     id: "social-media-2",
     name: "github",
+    icon: github,
     link: "https://www.github.com/",
-  },
-  {
-    id: "social-media-3",
-    name: "dribble",
-    link: "https://www.dribbble.com/",
   },
 ];
 

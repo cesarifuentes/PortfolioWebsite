@@ -11,7 +11,7 @@
   --white-2: rgba(255, 255, 255, 0.8);
   --white-3: rgba(255, 255, 255, 0.5);
 
-  background-color: #1b1f25;
+  background-color: #171b21;
   font-synthesis: none; /* whether browser may synthesize typefaces when missing in font-family */
   text-rendering: optimizeLegibility; /* as read */
   -webkit-font-smoothing: antialiased; /* controls anti-aliasing when fonts are rendered */
@@ -27,17 +27,13 @@ html {
   padding: 0;
   width: 100%;
   /* overflow-x: hidden; */
+  filter: blur(0.4px);
 }
 
 @font-face {
-  font-family: "GS-Regular";
-  src: local("MyFont"), url(./fonts/GascogneSerial.otf) format("opentype");
-}
-
-/* @font-face {
   font-family: "HN-Bold";
   src: local("MyFont"), url(./fonts/HelveticaNeueBold.otf) format("opentype");
-} */
+}
 
 @font-face {
   font-family: "HN-Light";
@@ -54,20 +50,41 @@ html {
   src: local("MyFont"), url(./fonts/HelveticaNeueRoman.otf) format("opentype");
 }
 
+h1 {
+  font-family: "HN-Bold";
+  /* color: var(--white-1); */
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "HN-Medium";
+  /* color: var(--white-1);
+   */
+  font-size: 1.2em;
+  line-height: 0.7em;
+}
+
+h3 {
+  font-family: "HN-Bold";
+  color: var(--white-2);
+  /* line-height: 1.3; */
+}
+
+h4 {
+  font-family: "HN-Bold";
+  /* color: var(--white-3); */
+  font-size: 0.8em;
+  line-height: 1.1em;
+}
+
 p {
   font-family: "HN-Regular";
-  color: var(--white-2);
+  /* color: var(--white-2); */
   font-size: 1em;
   line-height: 1.5;
 }
 
-h1 {
-  font-family: "GS-Regular";
-  color: var(--white-1);
-  font-size: 6rem;
-}
-
-@media only screen and (min-width: 0px) {
+/* @media only screen and (min-width: 0px) {
   h1 {
     font-size: 3rem;
   }
@@ -89,25 +106,7 @@ h1 {
   h1 {
     font-size: 6rem;
   }
-}
-
-/* h2 {
-  font-family: "HN-Medium";
-  color: var(--white-1);
-  font-size: 1.2em;
 } */
-
-h3 {
-  font-family: "HN-Regular";
-  color: var(--white-2);
-  /* line-height: 1.3; */
-}
-
-h4 {
-  font-family: "HN-Light";
-  color: var(--white-3);
-  /* font-size: 0.8em; */
-}
 
 .line {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -115,7 +114,7 @@ h4 {
 }
 
 section {
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 
 .grayscale {
