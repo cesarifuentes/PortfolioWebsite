@@ -7,8 +7,12 @@ import { Sidebar, About, Projects, Experience } from "./components";
 // TODO: footer text
 // TODO: fix date text on xperience
 
+// TODO: flex space between 3 things
+// TODO: line widths
+// TODO: make scroll start early
+
 const App = () => (
-  <div className="p-5 lg:container sm:p-12 lg:min-h-screen lg:mx-auto">
+  <div className="min-h-screen p-5 sm:p-7 lg:px-10 lg:p-0 lg:container lg:min-h-screen lg:mx-auto">
     {/* md:p-16 lg:py-0 */}
     <div className="lg:flex lg:gap-4 lg:justify-between lg:max-w-[1280px]">
       {/* FIXME: LEFT - HEADER */}
@@ -16,18 +20,14 @@ const App = () => (
         <Sidebar />
       </header>
       {/* FIXME: RIGHT - CONTENT */}
-      <div className="pt-20 lg:w-1/2">
+      <div className="pt-20 lg:w-1/3">
         {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
         <About />
         <Projects />
         <Experience />
         <footer className="pb-20">
-          {/* <p>© Cesar Fuentes 2023. All rights reserved.</p> */}
-          <p>
+          <p className="uppercase">
             © Cesar Fuentes 2023. All rights reserved.
-            {/* Loosely designed in Figma and coded in Visual Studio Code by yours
-            truly. Built with Next.js and Tailwind CSS, deployed with Vercel.
-            All text is set in the Inter typeface. */}
           </p>
         </footer>
       </div>

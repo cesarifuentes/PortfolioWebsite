@@ -22,7 +22,7 @@ const Projects = () => {
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
             <p className="uppercase">{project.title}</p>
-            <h4 className="uppercase">{project.description}</h4>
+            <h4 className="">{project.description}</h4>
           </div>
         </div>
       ))}

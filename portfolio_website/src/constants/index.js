@@ -3,6 +3,8 @@ import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
 import pdf from "../assets/F_Cesar_Resume_[Date].pdf";
 
+// TODO: update these links and stuff
+
 export const socialMedias = [
   {
     id: "social-media-1",
@@ -16,11 +18,6 @@ export const socialMedias = [
   },
   {
     id: "social-media-3",
-    name: "gmail",
-    link: "fuentesivancesar@gmail.com",
-  },
-  {
-    id: "social-media-4",
     name: "dribble",
     link: "https://www.dribbble.com/",
   },

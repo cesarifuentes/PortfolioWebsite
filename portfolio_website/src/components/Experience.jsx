@@ -4,8 +4,6 @@ import { experiences, resume } from "../constants";
 const Experience = () => {
   return (
     <section>
-      <h3 className="gradient_text">EXPERIENCE</h3>
-      <br />
       {/* TODO: company and date */}
       {experiences.map((experience) => (
         <div
