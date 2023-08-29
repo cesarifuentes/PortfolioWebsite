@@ -31,6 +31,10 @@ export const paragraphs = [
     id: "paragraph-2",
     text: "My foray into the realm of art commenced during my high school years, during which I pursued courses in art and graphic design, providing me with a strong foundation in artistic expression. Subsequently, I pursued a Bachelor of Science degree in Computer Science at Texas A&M University, where I had the opportunity to delve into the worlds of software development and 3D graphics.",
   },
+  {
+    id: "paragraph-3",
+    text: "Whether I am engaged in coding, design work, or the conceptualization of innovative solutions, I infuse each undertaking with a discernible artistic sensibility, resulting in a harmonious fusion of technology and creativity.",
+  },
 ];
 
 export const projects = [

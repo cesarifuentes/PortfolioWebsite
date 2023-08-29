@@ -22,8 +22,8 @@ const Experience = () => {
           </div>
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
-            <h4 className="uppercase">{experience.date}</h4>
-            <p className="uppercase">{experience.title}</p>
+            <h4 className="mb-2 uppercase">{experience.date}</h4>
+            <h2 className="uppercase">{experience.title}</h2>
             {/* <p>{experience.description}</p> */}
           </div>
         </div>

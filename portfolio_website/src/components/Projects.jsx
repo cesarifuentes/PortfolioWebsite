@@ -21,8 +21,8 @@ const Projects = () => {
           </div>
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
-            <p className="uppercase">{project.title}</p>
-            <h4 className="">{project.description}</h4>
+            <h2 className="mb-2 uppercase">{project.title}</h2>
+            <h4 className="uppercase">{project.description}</h4>
           </div>
         </div>
       ))}
