@@ -1,7 +1,13 @@
+// images
 import space_sim from "../assets/space_sim.png";
+import spotify_arcade from "../assets/spotify_arcade.png";
+import huastecas from "../assets/huastecas.jpg";
+// experience cards
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
+// resume
 import pdf from "../assets/F_Cesar_Resume_[Date].pdf";
+// social logos
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 
@@ -52,7 +58,7 @@ export const projects = [
     description:
       "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best.",
     link: "https://www.google.com/",
-    image: space_sim,
+    image: spotify_arcade,
   },
 
   {
@@ -60,7 +66,7 @@ export const projects = [
     title: "Las Huastecas",
     description: "A frontend website for a local Mexican restaurant.",
     link: "https://www.google.com/",
-    image: space_sim,
+    image: huastecas,
   },
 ];
 

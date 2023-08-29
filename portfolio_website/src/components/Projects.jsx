@@ -7,13 +7,13 @@ const Projects = () => {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="relative grid gap-4 mb-6 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4"
+          className="relative grid gap-4 mb-12 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4"
         >
           {/* IMAGE */}
           <div className="row-span-2 sm:col-span-2">
             <a href={project.link} target="_blank">
               <img
-                className="object-cover border rounded grayscale"
+                className="object-cover transition duration-300 ease-in-out border roundedgrayscale hover:scale-105"
                 src={project.image}
                 alt={project.title}
               />

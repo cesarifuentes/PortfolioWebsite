@@ -5,10 +5,7 @@ const About = () => {
   return (
     <section>
       {paragraphs.map((paragraph, index) => (
-        <div
-          key={paragraph.id}
-          className={`text-center ${index === 0 ? "" : "hidden"}`}
-        >
+        <div key={paragraph.id} className={`text-center `}>
           <p>{paragraph.text}</p>
           <br />
         </div>
@@ -18,3 +15,5 @@ const About = () => {
 };
 
 export default About;
+
+// ${index === 0 ? "" : "hidden"}

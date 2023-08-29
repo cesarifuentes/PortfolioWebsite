@@ -2,6 +2,7 @@ import React from "react";
 import { socialMedias, resume } from "../constants";
 import globe from "../assets/globe.svg";
 import barcode from "../assets/barcode.png";
+import TypeWriterEffect from "react-typewriter-effect";
 
 const Sidebar = () => {
   return (
@@ -23,22 +24,31 @@ const Sidebar = () => {
         </div>
 
         {/* Title */}
-        <h1 className="text-center uppercase">
-          I create engaging, user-friendly online experiences.
-        </h1>
+
+        <TypeWriterEffect
+          textStyle={{
+            fontFamily: "HN-Bold",
+            textAlign: "center",
+            textTransform: "uppercase",
+          }}
+          startDelay={100}
+          cursorColor="white"
+          text="I create engaging, user-friendly online experiences."
+          typeSpeed={70}
+        />
 
         {/* Buttons */}
         <div className="text-center">
           <div>
             <a href={resume} download>
-              <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase ">
+              <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase hover:scale-105">
                 <h2 className="">Download Resume</h2>
               </button>
             </a>
           </div>
           <div className="mt-4">
             <a href="mailto:fuentesivancesar@gmail.com">
-              <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase max-w-[150px]">
+              <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase max-w-[150px] hover:scale-105">
                 <h2 className="">Email Me</h2>
               </button>
             </a>
@@ -55,7 +65,7 @@ const Sidebar = () => {
             <div key={socialMedia.id}>
               <a href={socialMedia.link} target="_blank">
                 <img
-                  className="w-[25px] h-[25px]"
+                  className="w-[25px] h-[25px] hover:scale-105"
                   src={socialMedia.icon}
                   alt={socialMedia.name}
                 />
