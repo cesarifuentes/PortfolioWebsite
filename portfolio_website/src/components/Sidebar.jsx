@@ -5,7 +5,7 @@ import barcode from "../assets/barcode.png";
 
 const Sidebar = () => {
   return (
-    <div className="mx-8 mt-16">
+    <div className="mt-16">
       {/* Top */}
       <div className="flex flex-col mt-5 gap-7 pb-11 ">
         {/* Logo */}
@@ -37,9 +37,11 @@ const Sidebar = () => {
             </a>
           </div>
           <div className="mt-4">
-            <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase max-w-[150px]">
-              <h2 className="">Email Me</h2>
-            </button>
+            <a href="mailto:fuentesivancesar@gmail.com">
+              <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase max-w-[150px]">
+                <h2 className="">Email Me</h2>
+              </button>
+            </a>
           </div>
         </div>
       </div>

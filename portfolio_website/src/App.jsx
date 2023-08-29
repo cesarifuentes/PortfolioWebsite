@@ -15,7 +15,7 @@ const App = () => (
   <div className="container mx-auto">
     {/* sm:p-7 lg:px-0 lg:p-0 lg:container lg:min-h-screen  */}
     {/* md:p-16 lg:py-0 */}
-    <div className="">
+    <div className="mx-8 ">
       {/* lg:flex lg:gap-4 lg:justify-between lg:max-w-[1280px] */}
       {/* FIXME: LEFT - HEADER */}
       <header className="">
@@ -23,12 +23,12 @@ const App = () => (
         <Sidebar />
       </header>
       {/* FIXME: RIGHT - CONTENT */}
-      <div className="pt-20 ">
+      <div className="pt-20">
         {/* lg:w-2/5 */}
         {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
-        {/* <About /> */}
-        {/* <Projects /> */}
-        {/* <Experience /> */}
+        <About />
+        <Projects />
+        <Experience />
       </div>
     </div>
   </div>

@@ -4,8 +4,11 @@ import { paragraphs } from "../constants";
 const About = () => {
   return (
     <section>
-      {paragraphs.map((paragraph) => (
-        <div key={paragraph.id} className="bg-primary">
+      {paragraphs.map((paragraph, index) => (
+        <div
+          key={paragraph.id}
+          className={`text-center ${index === 0 ? "" : "hidden"}`}
+        >
           <p>{paragraph.text}</p>
           <br />
         </div>
