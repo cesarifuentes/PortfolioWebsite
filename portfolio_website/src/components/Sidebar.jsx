@@ -4,20 +4,23 @@ import globe from "../assets/globe.svg";
 import barcode from "../assets/barcode.png";
 import TypeWriterEffect from "react-typewriter-effect";
 
+// TODO: make div scale
+
 const Sidebar = () => {
   return (
     <div className="mt-16">
       {/* Top */}
       <div className="flex flex-col mt-5 gap-7 pb-11 ">
         {/* Logo */}
-        <div className="flex flex-col justify-center mg:flex mg:align-middle">
+        <div className="flex flex-col justify-center sm:justify-start sm:flex-row sm:items-center">
+          {/* TODO: remove one of these containers? */}
           <img
-            className="container mx-auto w-[50px] h-[36px]"
+            className="container mx-auto w-[50px] h-[36px] sm:w-[50px] sm:mx-0 sm:mr-3"
             src={globe}
             alt="globe"
           />
 
-          <h4 className="mt-4 text-center uppercase sm:p-1 sm:ml-2">
+          <h4 className="mt-4 text-center uppercase sm:text-left sm:mt-0">
             Hi my name is Cesar <br />
             Welcome to my portfolio
           </h4>
@@ -25,20 +28,12 @@ const Sidebar = () => {
 
         {/* Title */}
 
-        <TypeWriterEffect
-          textStyle={{
-            fontFamily: "HN-Bold",
-            textAlign: "center",
-            textTransform: "uppercase",
-          }}
-          startDelay={100}
-          cursorColor="white"
-          text="I create engaging, user-friendly online experiences."
-          typeSpeed={70}
-        />
+        <h1 className="text-center uppercase sm:text-left">
+          I create engaging, user-friendly online experiences.
+        </h1>
 
         {/* Buttons */}
-        <div className="text-center">
+        <div className="text-center sm:text-left">
           <div>
             <a href={resume} download>
               <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase hover:scale-105">
@@ -60,12 +55,12 @@ const Sidebar = () => {
       <div className="flex flex-col gap-3">
         {/* lg:w-[400px] lg:mb-20 lg:absolute lg:bottom-0 lg:left-0  */}
         {/* Logos */}
-        <div className="flex justify-center gap-3">
+        <div className="flex justify-center gap-3 sm:justify-start">
           {socialMedias.map((socialMedia, index) => (
             <div key={socialMedia.id}>
               <a href={socialMedia.link} target="_blank">
                 <img
-                  className="w-[25px] h-[25px] hover:scale-105"
+                  className="w-[25px] h-[25px] hover:scale-105 "
                   src={socialMedia.icon}
                   alt={socialMedia.name}
                 />
@@ -75,14 +70,14 @@ const Sidebar = () => {
         </div>
 
         {/* Text */}
-        <h3 className="text-center uppercase">
+        <h3 className="text-center uppercase sm:text-left">
           Software Developer <br /> Based in Dallas Texas <br /> ©2023 All
           Rights Reserved.{" "}
         </h3>
 
         {/* Barcode */}
         <img
-          className="container mx-auto w-[207px] h-[24px]"
+          className="container mx-auto w-[207px] h-[24px] sm:ml-0"
           src={barcode}
           alt="globe"
         />
@@ -107,4 +102,18 @@ export default Sidebar;
 }
 {
   /* lg:pb-0 lg:mt-0 */
+}
+
+{
+  /* <TypeWriterEffect
+textStyle={{
+  fontFamily: "HN-Bold",
+  textAlign: "center",
+  textTransform: "uppercase",
+}}
+startDelay={100}
+cursorColor="white"
+text="I create engaging, user-friendly online experiences."
+typeSpeed={70}
+/> */
 }
