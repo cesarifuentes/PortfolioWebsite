@@ -12,7 +12,9 @@ import { Sidebar, About, Projects, Experience } from "./components";
 // TODO: background >>> bg-[url(./assets/background.jpg)] bg-cover
 
 const App = () => (
-  <div className="container mx-auto ">
+  <div className="container mx-auto sm:max-w-full sm:mx-0 ">
+    {/* sm:w-[50px] sm:mr-3 */}
+    {/*  */}
     {/* sm:ml-0 */}
     {/* sm:p-7 lg:px-0 lg:p-0 lg:container lg:min-h-screen  */}
     {/* md:p-16 lg:py-0 */}
