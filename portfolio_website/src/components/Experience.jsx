@@ -14,7 +14,7 @@ const Experience = () => {
           <div className="row-span-2 sm:col-span-2">
             <a href={experience.link} target="_blank">
               <img
-                className="object-cover rounded grayscale"
+                className="object-cover transition duration-300 ease-in-out rounded grayscale hover:scale-105"
                 src={experience.image}
                 alt={experience.title}
               />

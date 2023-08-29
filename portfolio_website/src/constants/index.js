@@ -1,7 +1,7 @@
 // images
 import space_sim from "../assets/space_sim.png";
 import spotify_arcade from "../assets/spotify_arcade.png";
-import huastecas from "../assets/huastecas.jpg";
+import huastecas from "../assets/huastecas.png";
 // experience cards
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
