@@ -4,10 +4,6 @@ import globe from "../assets/globe.svg";
 import barcode from "../assets/barcode.png";
 import TypeWriterEffect from "react-typewriter-effect";
 
-// TODO: make div scale
-
-// TODO: make these flex items on opposite sides instead of opposite
-
 const Sidebar = () => {
   return (
     <header className="lg:h-full lg:flex lg:flex-col lg:justify-between">
@@ -29,7 +25,7 @@ const Sidebar = () => {
 
         {/* Title */}
 
-        <h1 className="text-center uppercase sm:text-left">
+        <h1 className="text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
           I create engaging, user-friendly online experiences.
         </h1>
 

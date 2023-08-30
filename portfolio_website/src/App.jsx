@@ -3,16 +3,10 @@ import styles from "./styles";
 import { Sidebar, About, Projects, Experience } from "./components";
 
 // FIXME: missing frontend in title
-// FIXME: margins again
+// FIXME: make scroll start early
 
-// TODO: make sure text highlighting is nromal
-// TODO: make scroll start early
-// TODO: resume button can press anywhere in div
-// https://placekitten.com/1400
 // TODO: background >>> bg-[url(./assets/background.jpg)] bg-cover
-// TODO: bottom padding
-
-// TODO: make large breakpoint larger?
+// TODO: fix padding top in earlier stages
 
 const App = () => (
   <div className="container mx-auto sm:max-w-full sm:mx-0 xl:px-10">
@@ -25,7 +19,7 @@ const App = () => (
         </div>
       </div>
       {/* FIXME: RIGHT - CONTENT */}
-      <div className="pt-40 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-1/2 ">
+      <div className="pt-40 pb-10 lg:pb-0 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-1/2 ">
         {/* lg:w-1/2 */}
         {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
         <About />
