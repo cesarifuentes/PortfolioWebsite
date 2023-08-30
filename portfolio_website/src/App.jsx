@@ -6,10 +6,9 @@ import { Sidebar, About, Projects, Experience } from "./components";
 // FIXME: make scroll start early
 
 // TODO: background >>> bg-[url(./assets/background.jpg)] bg-cover
-// TODO: fix padding top in earlier stages
 
 const App = () => (
-  <div className="container mx-auto sm:max-w-full sm:mx-0 xl:px-10">
+  <div className="container mx-auto mt-10 sm:mt-15 lg:mt-0 sm:max-w-full sm:mx-0 xl:px-10">
     {/* this last xl:px-10 padding bridges the gap between lg and xl */}
     <div className="mx-8 lg:mx-10 lg:flex lg:flex-row lg:gap-20 lg:justify-between xl:container xl:mx-auto">
       {/* FIXME: LEFT - HEADER */}
