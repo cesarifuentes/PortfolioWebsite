@@ -13,7 +13,6 @@ import { Sidebar, About, Projects, Experience } from "./components";
 // TODO: bottom padding
 
 // TODO: make large breakpoint larger?
-// TODO: fix boxes and text next to them
 
 const App = () => (
   <div className="container mx-auto sm:max-w-full sm:mx-0 ">
