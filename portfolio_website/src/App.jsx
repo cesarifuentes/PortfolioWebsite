@@ -10,23 +10,22 @@ import { Sidebar, About, Projects, Experience } from "./components";
 // TODO: resume button can press anywhere in div
 // https://placekitten.com/1400
 // TODO: background >>> bg-[url(./assets/background.jpg)] bg-cover
+// TODO: bottom padding
+
+// TODO: make large breakpoint larger?
+// TODO: fix boxes and text next to them
 
 const App = () => (
   <div className="container mx-auto sm:max-w-full sm:mx-0 ">
-    {/* sm:w-[50px] sm:mr-3 */}
-    {/*  */}
-    {/* sm:ml-0 */}
-    {/* sm:p-7 lg:px-0 lg:p-0 lg:container lg:min-h-screen  */}
-    {/* md:p-16 lg:py-0 */}
-    <div className="mx-8 ">
-      {/* lg:flex lg:gap-4 lg:justify-between lg:max-w-[1280px] */}
+    <div className="mx-8 lg:mx-10 lg:flex lg:flex-row lg:gap-20 lg:justify-between">
       {/* FIXME: LEFT - HEADER */}
-      <header className="">
-        {/* lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 */}
-        <Sidebar />
-      </header>
+      <div className="lg:sticky lg:top-0 lg:max-h-screen">
+        <div className="lg:h-screen lg:py-16">
+          <Sidebar />
+        </div>
+      </div>
       {/* FIXME: RIGHT - CONTENT */}
-      <div className="pt-40">
+      <div className="pt-40 lg:min-h-screen lg:pt-0 lg:my-16">
         {/* lg:w-2/5 */}
         {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
         <About />

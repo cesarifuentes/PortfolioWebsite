@@ -3,7 +3,7 @@ import { projects } from "../constants";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="section-custom">
       {projects.map((project) => (
         <div
           key={project.id}
