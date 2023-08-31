@@ -11,10 +11,11 @@ const Experience = () => {
           className="relative grid gap-4 mb-6 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4"
         >
           {/* IMAGE */}
-          <div className="row-span-2 sm:col-span-2">
-            <a href={experience.link} target="_blank">
+          <div className="row-span-2 sm:col-span-2 filter-none">
+            <a className="filter-none">
+              {/* href={experience.link}  target="_blank"*/}
               <img
-                className="object-cover transition duration-300 ease-in-out rounded grayscale hover:scale-105"
+                className="object-cover transition duration-300 ease-in-out rounded grayscale hover:scale-105 filter-none"
                 src={experience.image}
                 alt={experience.title}
               />

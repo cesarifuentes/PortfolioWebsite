@@ -15,7 +15,7 @@ const Projects = () => {
           <div className="row-span-2 sm:col-span-2">
             <a href={project.link} target="_blank">
               <img
-                className="object-cover transition duration-300 ease-in-out border rounded grayscale hover:scale-105"
+                className="object-cover transition duration-300 ease-in-out border rounded grayscale hover:scale-105 "
                 src={project.image}
                 alt={project.title}
               />
