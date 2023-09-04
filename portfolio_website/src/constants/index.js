@@ -1,5 +1,6 @@
 // images
 import space_sim from "../assets/space_sim.png";
+import replace_me from "../assets/replace_me.png"; // spotify_arcade.png
 import spotify_arcade from "../assets/empty.png"; // spotify_arcade.png
 import huastecas from "../assets/empty.png"; // huastecas.png
 // experience cards
@@ -46,28 +47,35 @@ export const paragraphs = [
 export const projects = [
   {
     id: "project-1",
+    title: "Replace Me",
+    description:
+      "An iOS app that helps people remember to replace commonly disregarded household items. Coming to the AppStore soon.",
+    link: "",
+    image: replace_me,
+  },
+  {
+    id: "project-2",
+    title: "Spotify Arcade",
+    description:
+      "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best.",
+    link: "",
+    image: spotify_arcade,
+  },
+  {
+    id: "project-3",
+    title: "Las Huastecas",
+    description: "A frontend website for a local Mexican restaurant.",
+    link: "",
+    image: huastecas,
+  },
+  {
+    id: "project-4",
     title: "Space Simulation",
     description:
       "A 3D OpenGL video game engine in C++ that simulates the physical movement of particles in space.",
     link: "https://people.engr.tamu.edu/sueda/courses/CSCE450/2022F/projects/Cesar_Fuentes/index.html",
     image: space_sim,
   },
-  // {
-  //   id: "project-2",
-  //   title: "Spotify Arcade",
-  //   description:
-  //     "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best.",
-  //   link: "",
-  //   image: spotify_arcade,
-  // },
-
-  // {
-  //   id: "project-3",
-  //   title: "Las Huastecas",
-  //   description: "A frontend website for a local Mexican restaurant.",
-  //   link: "",
-  //   image: huastecas,
-  // },
 ];
 
 export const experiences = [
