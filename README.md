@@ -40,3 +40,4 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 ## Roadmap
 
 - [ ] As of now, images must be png files of size 1020 by 708.
+- [ ] Blurring effect glitch when hovering over cards.
