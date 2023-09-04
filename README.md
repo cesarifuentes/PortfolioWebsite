@@ -18,6 +18,12 @@ cd portfolio_website
 npm run dev -- --host
 ```
 
+Make dist folder for distribution.
+
+```
+npm run build
+```
+
 Then open the local host or network links that appear in the terminal.
 
 ## Contributing
