@@ -28,7 +28,9 @@ html {
   padding: 0;
   width: 100%;
   /* overflow-x: hidden; */
-  filter: blur(0.4px);
+  /* filter: blur(0.0001px); */
+  /* backdrop-filter: blur(100); */
+  /* opacity: 0.9; */
 }
 
 /* body:not(.card-image) {
@@ -101,10 +103,12 @@ h4 {
 }
 
 p {
-  font-family: "HN-Regular";
+  font-family: "HN-Bold";
   /* color: var(--white-2); */
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.5;
+  opacity: 0.6;
+  text-transform: uppercase;
 }
 
 /* @media only screen and (min-width: 0px) {

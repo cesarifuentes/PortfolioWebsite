@@ -7,7 +7,7 @@ import huastecas from "../assets/empty.png"; // huastecas.png
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
 // resume
-import pdf from "../assets/F_Cesar_Resume_0831.pdf";
+import pdf from "../assets/F_Cesar_Resume_Sep2023.pdf";
 // social logos
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
