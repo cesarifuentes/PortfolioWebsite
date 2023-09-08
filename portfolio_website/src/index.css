@@ -7,6 +7,8 @@
   line-height: 1;
   color: white;
 
+  text-transform: uppercase;
+
   /* font-weight: 400; */
   --white-1: white;
   --white-2: rgba(255, 255, 255, 0.8);
@@ -107,8 +109,7 @@ p {
   /* color: var(--white-2); */
   font-size: 0.9em;
   line-height: 1.5;
-  opacity: 0.6;
-  text-transform: uppercase;
+  opacity: 0.4;
 }
 
 /* @media only screen and (min-width: 0px) {
@@ -140,9 +141,16 @@ p {
   width: 100%;
 }
 
-#section-custom {
+.section-mb {
   margin-bottom: 130px;
 }
+
+.space-btwn-title {
+  margin-bottom: 40px;
+}
+/* section {
+  gap: 20px;
+} */
 
 .grayscale {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */

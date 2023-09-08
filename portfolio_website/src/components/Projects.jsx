@@ -3,7 +3,10 @@ import { projects } from "../constants";
 
 const Projects = () => {
   return (
-    <section id="section-custom">
+    <section className="section-mb">
+      {/* Title */}
+      <h3 className="space-btwn-title">Projects</h3>
+      {/* Projects */}
       {projects.map((project) => (
         <div
           key={project.id}
