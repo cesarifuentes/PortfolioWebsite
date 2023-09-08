@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="section-mb">
       {/* Title */}
-      <h3 className="space-btwn-title">About Me</h3>
+      <h3 className="text-center space-btwn-title sm:text-left">About Me</h3>
       {/* opacity-100 */}
       {/* Paragraphs */}
 

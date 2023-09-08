@@ -6,13 +6,13 @@ const Projects = () => {
   return (
     <section>
       {/* Title */}
-      <h3 className="space-btwn-title">Projects</h3>
+      <h3 className="text-center space-btwn-title sm:text-left">Projects</h3>
       {/* Projects */}
       {projects.map((project, index) => (
         <div
           key={project.id}
           className={`relative grid gap-4 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4 ${
-            index === projects.length - 1 ? "mb-0" : "mb-6"
+            index === projects.length - 1 ? "mb-0" : "mb-20 lg:mb-6"
           }`}
 
           // group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50
@@ -21,7 +21,7 @@ const Projects = () => {
           <div className="row-span-2 sm:col-span-2">
             <a href={project.link} target="_blank">
               <img
-                className="object-cover transition duration-300 ease-in-out rounded project grayscale hover:scale-105 "
+                className="object-cover transition duration-300 ease-in-out rounded project hover:scale-105 "
                 src={project.image}
                 alt={project.title}
               />

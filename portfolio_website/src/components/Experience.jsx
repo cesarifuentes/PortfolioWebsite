@@ -5,14 +5,14 @@ const Experience = () => {
   return (
     <section className="section-mb">
       {/* Title */}
-      <h3 className="space-btwn-title">Experience</h3>
+      <h3 className="text-center space-btwn-title sm:text-left">Experience</h3>
       {/* Experiences */}
       {/* TODO: company and date */}
       {experiences.map((experience, index) => (
         <div
           key={experience.id}
           className={`relative grid gap-4 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4 ${
-            index === experiences.length - 1 ? "mb-0" : "mb-6"
+            index === experiences.length - 1 ? "mb-0" : "mb-20 lg:mb-6"
           }`}
           // className="mb-6 lg:mb-0"
         >
