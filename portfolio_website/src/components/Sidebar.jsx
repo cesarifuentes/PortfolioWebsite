@@ -3,6 +3,7 @@ import { socialMedias, resume } from "../constants";
 import globe from "../assets/globe.svg";
 import barcode from "../assets/barcode.png";
 import TypeWriterEffect from "react-typewriter-effect";
+import Button from "./Button";
 
 const Sidebar = () => {
   return (
@@ -31,19 +32,12 @@ const Sidebar = () => {
 
         {/* Buttons */}
         <div className="text-center sm:text-left">
-          <div>
-            <a href={resume} download>
-              <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase hover:scale-105">
-                <h2 className="">Download Resume</h2>
-              </button>
-            </a>
-          </div>
+          <Button text="Download Resume" href_={resume}></Button>
           <div className="mt-4">
-            <a href="mailto:fuentesivancesar@gmail.com">
-              <button class="bg-transparent border-2 border-white pt-3 pb-2 px-4 rounded-full uppercase max-w-[150px] hover:scale-105">
-                <h2 className="">Email Me</h2>
-              </button>
-            </a>
+            <Button
+              text="Email Me"
+              href_="mailto:fuentesivancesar@gmail.com"
+            ></Button>
           </div>
         </div>
       </div>
