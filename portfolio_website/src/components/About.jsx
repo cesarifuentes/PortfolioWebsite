@@ -1,5 +1,4 @@
 import React from "react";
-import { paragraphs } from "../constants";
 
 const About = () => {
   return (
@@ -9,7 +8,7 @@ const About = () => {
       {/* opacity-100 */}
       {/* Paragraphs */}
 
-      <div className="text-center sm:text-left">
+      <div className="text-center sm:text-justify">
         <p>
           This website serves as a curated showcase of my achievements
           throughout my career as a software developer. Each project represents
@@ -19,7 +18,7 @@ const About = () => {
         </p>
         <br />
       </div>
-      <div className="text-center sm:text-left">
+      <div className="text-center sm:text-justify">
         <p>
           My foray into the realm of art commenced during my high school years,
           during which I pursued courses in{" "}
@@ -36,7 +35,7 @@ const About = () => {
         </p>
         <br />
       </div>
-      <div className="text-center sm:text-left">
+      <div className="text-center sm:text-justify">
         <p>
           Whether I am engaged in coding, design work, or the conceptualization
           of creative solutions, I infuse each undertaking with a discernible
@@ -44,7 +43,6 @@ const About = () => {
           you’ll find me playing Dead by Daylight, dedicating time to volunteer
           for the youth in my community, and creating art.
         </p>
-        <br />
       </div>
     </section>
   );
@@ -53,10 +51,3 @@ const About = () => {
 export default About;
 
 // ${index === 0 ? "" : "hidden"}
-
-// {paragraphs.map((paragraph, index) => (
-//   <div key={paragraph.id} className={`text-center sm:text-justify`}>
-//     <p>{paragraph.text}</p>
-//     <br />
-//   </div>
-// ))}

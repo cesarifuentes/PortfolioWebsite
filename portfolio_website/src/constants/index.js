@@ -1,8 +1,8 @@
 // images
 import space_sim from "../assets/space_sim.png";
 import replace_me from "../assets/replace_me.png"; // spotify_arcade.png
-import spotify_arcade from "../assets/empty.png"; // spotify_arcade.png
-import huastecas from "../assets/empty.png"; // huastecas.png
+import spotify_arcade from "../assets/spotifyarcade.png"; // spotify_arcade.png
+import huastecas from "../assets/huastecas.png"; // huastecas.png
 // experience cards
 import tamu from "../assets/tamu.png";
 import publicis from "../assets/publicis.png";
@@ -29,44 +29,33 @@ export const socialMedias = [
   },
 ];
 
-export const paragraphs = [
-  {
-    id: "paragraph-1",
-    text: "This website serves as a curated showcase of my achievements throughout my career as a software developer. Each project represents a meaningful milestone in my professional journey. These endeavors are meticulously crafted, resembling finely crafted pieces of art in their attention to detail and aesthetic quality.",
-  },
-  {
-    id: "paragraph-2",
-    text: "My foray into the realm of art commenced during my high school years, during which I pursued courses in art and graphic design, providing me with a strong foundation in artistic expression. Subsequently, I pursued a Bachelor's degree in Computer Science at Texas A&M University, where I had the opportunity to delve into the worlds of software development and 3D graphics.",
-  },
-  {
-    id: "paragraph-3",
-    text: "Whether I am engaged in coding, design work, or the conceptualization of creative solutions, I infuse each undertaking with a discernible artistic sensibility. When I’m not furiously typing at my computer, you’ll find me playing Dead by Daylight, dedicating time to volunteer for the youth in my community, and creating art.",
-  },
-];
-
 export const projects = [
   {
     id: "project-1",
     title: "Replace Me",
     description:
-      "An iOS app that helps people remember to replace commonly disregarded household items. Coming to the AppStore soon.",
+      "An iOS app that helps people remember to replace commonly disregarded household items. In production.",
     link: "",
     image: replace_me,
+    isNew: true,
   },
   {
     id: "project-2",
-    title: "Spotify Arcade",
+    title: "Las Huastecas",
     description:
-      "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best.",
+      "A full stack e-commerce website for a local Mexican restaurant. In production.",
     link: "",
-    image: spotify_arcade,
+    image: huastecas,
+    isNew: true,
   },
   {
     id: "project-3",
-    title: "Las Huastecas",
-    description: "A frontend website for a local Mexican restaurant.",
+    title: "Spotify Arcade",
+    description:
+      "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best. In production.",
     link: "",
-    image: huastecas,
+    image: spotify_arcade,
+    isNew: false,
   },
   {
     id: "project-4",
@@ -75,6 +64,7 @@ export const projects = [
       "A 3D OpenGL video game engine in C++ that simulates the physical movement of particles in space.",
     link: "https://people.engr.tamu.edu/sueda/courses/CSCE450/2022F/projects/Cesar_Fuentes/index.html",
     image: space_sim,
+    isNew: false,
   },
 ];
 

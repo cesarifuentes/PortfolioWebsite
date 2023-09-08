@@ -30,7 +30,7 @@ const Sidebar = () => {
           I create engaging, user-friendly online experiences.
         </h1>
 
-        <h3>Let's Connect</h3>
+        {/* <h3>Let's Connect</h3> */}
 
         {/* Buttons */}
         <div className="text-center sm:text-left">

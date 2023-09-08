@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "../constants";
+import recent_tag from "../assets/new.svg";
 
 const Projects = () => {
   return (
@@ -7,10 +8,12 @@ const Projects = () => {
       {/* Title */}
       <h3 className="space-btwn-title">Projects</h3>
       {/* Projects */}
-      {projects.map((project) => (
+      {projects.map((project, index) => (
         <div
           key={project.id}
-          className="relative grid gap-4 mb-12 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4"
+          className={`relative grid gap-4 sm:grid-rows-1 sm:grid-cols-8 sm:gap-8 md:gap-4 ${
+            index === projects.length - 1 ? "mb-0" : "mb-6"
+          }`}
 
           // group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50
         >
@@ -18,7 +21,7 @@ const Projects = () => {
           <div className="row-span-2 sm:col-span-2">
             <a href={project.link} target="_blank">
               <img
-                className="object-cover transition duration-300 ease-in-out border rounded grayscale hover:scale-105 "
+                className="object-cover transition duration-300 ease-in-out rounded project grayscale hover:scale-105 "
                 src={project.image}
                 alt={project.title}
               />
@@ -26,6 +29,7 @@ const Projects = () => {
           </div>
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
+            {project.isNew ? <img src={recent_tag} alt="new-project" /> : null}
             <h2 className="mt-5 mb-2 uppercase">{project.title}</h2>
             <p className="uppercase">{project.description}</p>
           </div>

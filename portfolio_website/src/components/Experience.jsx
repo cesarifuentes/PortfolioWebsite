@@ -21,7 +21,7 @@ const Experience = () => {
             <a className="filter-none">
               {/* href={experience.link}  target="_blank"*/}
               <img
-                className="object-cover transition duration-300 ease-in-out rounded grayscale hover:scale-105 filter-none"
+                className="object-cover transition duration-300 ease-in-out rounded card grayscale hover:scale-105 filter-none"
                 src={experience.image}
                 alt={experience.title}
               />
