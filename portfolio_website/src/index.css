@@ -10,9 +10,8 @@
   text-transform: uppercase;
 
   /* font-weight: 400; */
-  --white-1: white;
-  --white-2: rgba(255, 255, 255, 0.8);
-  --white-3: rgba(255, 255, 255, 0.5);
+  /* --white-1: white; */
+  color: white;
 
   background-color: #171b21;
   font-synthesis: none; /* whether browser may synthesize typefaces when missing in font-family */
@@ -107,7 +106,7 @@ h4 {
 p {
   font-family: "HN-Bold";
   /* color: var(--white-2); */
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.5;
   opacity: 0.4;
 }

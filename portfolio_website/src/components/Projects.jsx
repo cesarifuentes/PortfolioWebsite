@@ -3,7 +3,7 @@ import { projects } from "../constants";
 
 const Projects = () => {
   return (
-    <section className="section-mb">
+    <section>
       {/* Title */}
       <h3 className="space-btwn-title">Projects</h3>
       {/* Projects */}
@@ -27,7 +27,7 @@ const Projects = () => {
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
             <h2 className="mt-5 mb-2 uppercase">{project.title}</h2>
-            <h4 className="uppercase">{project.description}</h4>
+            <p className="uppercase">{project.description}</p>
           </div>
         </div>
       ))}

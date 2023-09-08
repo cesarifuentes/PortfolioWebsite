@@ -3,7 +3,7 @@ import { experiences, resume } from "../constants";
 
 const Experience = () => {
   return (
-    <section>
+    <section className="section-mb">
       {/* Title */}
       <h3 className="space-btwn-title">Experience</h3>
       {/* Experiences */}
@@ -29,7 +29,7 @@ const Experience = () => {
           </div>
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
-            <h4 className="mt-5 mb-2 uppercase">{experience.date}</h4>
+            <p className="mt-5 mb-2 uppercase">{experience.date}</p>
             <h2 className="leading-5 uppercase">{experience.title}</h2>
             {/* <p>{experience.description}</p> */}
           </div>

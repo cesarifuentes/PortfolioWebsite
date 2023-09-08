@@ -28,8 +28,8 @@ const App = () => (
           {/* lg:w-1/2 */}
           {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
           <About />
-          <Projects />
           <Experience />
+          <Projects />
         </div>
       </div>
     </div>
