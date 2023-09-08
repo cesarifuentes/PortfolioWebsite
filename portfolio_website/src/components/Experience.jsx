@@ -23,7 +23,7 @@ const Experience = () => {
               <img
                 className="object-cover transition duration-300 ease-in-out rounded card grayscale hover:scale-105 filter-none"
                 src={experience.image}
-                alt={experience.title}
+                alt={`ID Card Picture of me when I was at ${experience.company}`}
               />
             </a>
           </div>

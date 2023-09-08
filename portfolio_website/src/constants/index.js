@@ -53,6 +53,7 @@ export const projects = [
     link: "",
     image: replace_me,
     isNew: true,
+    alt: "iPhone showing replace me app",
   },
   {
     id: "project-2",
@@ -62,6 +63,7 @@ export const projects = [
     link: "",
     image: huastecas,
     isNew: true,
+    alt: "Laptop showing my e-commerce website",
   },
   {
     id: "project-3",
@@ -71,6 +73,7 @@ export const projects = [
     link: "",
     image: spotify_arcade,
     isNew: false,
+    alt: "Laptop showing my spotify arcade website",
   },
   {
     id: "project-4",
@@ -80,6 +83,7 @@ export const projects = [
     link: "https://people.engr.tamu.edu/sueda/courses/CSCE450/2022F/projects/Cesar_Fuentes/index.html",
     image: space_sim,
     isNew: false,
+    alt: "Laptop showing a screenshot of my space simulation video game",
   },
 ];
 

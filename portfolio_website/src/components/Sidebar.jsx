@@ -15,7 +15,7 @@ const Sidebar = () => {
           <img
             className="container mx-auto w-[50px] h-[36px] sm:w-[50px] sm:mx-0 sm:mr-3"
             src={globe}
-            alt="globe"
+            alt="Futuristic globe vector"
           />
 
           <h4 className="mt-4 text-center uppercase sm:text-left sm:mt-0">
@@ -55,7 +55,7 @@ const Sidebar = () => {
                 <img
                   className="w-[25px] h-[25px] hover:scale-105 "
                   src={socialMedia.icon}
-                  alt={socialMedia.name}
+                  alt={`${socialMedia.name} Icon Link`}
                 />
               </a>
             </div>
@@ -72,7 +72,7 @@ const Sidebar = () => {
         <img
           className="container mx-auto w-[207px] h-[24px] sm:ml-0"
           src={barcode}
-          alt="globe"
+          alt="Barcode lines for artistic effect"
         />
       </div>
     </header>

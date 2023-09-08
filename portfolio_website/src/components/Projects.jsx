@@ -23,13 +23,18 @@ const Projects = () => {
               <img
                 className="object-cover transition duration-300 ease-in-out rounded project hover:scale-105 "
                 src={project.image}
-                alt={project.title}
+                alt={project.alt}
               />
             </a>
           </div>
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
-            {project.isNew ? <img src={recent_tag} alt="new-project" /> : null}
+            {project.isNew ? (
+              <img
+                src={recent_tag}
+                alt="Icon to indicate this is a newer project"
+              />
+            ) : null}
             <h2 className="mt-5 mb-2 uppercase">{project.title}</h2>
             <p className="uppercase">{project.description}</p>
           </div>
