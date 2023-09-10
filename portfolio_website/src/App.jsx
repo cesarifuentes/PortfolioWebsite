@@ -12,11 +12,9 @@ import Navigation from "./navigation";
 // TODO: make sidebar for sm,md,lg screens take up entire page height and flex justify
 
 const App = () => (
-  // <HelmetProvider context={helmetContext}>
   <>
     <Navigation />
   </>
-  // </HelmetProvider>
 );
 
 export default App;

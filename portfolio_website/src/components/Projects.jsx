@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section>
       {/* Title */}
-      <h3 className="text-center space-btwn-title sm:text-left">Projects</h3>
+      <h4 className="text-center space-btwn-title sm:text-left">Projects</h4>
       {/* Projects */}
       {projects.map((project, index) => (
         <div
@@ -36,7 +36,7 @@ const Projects = () => {
                 alt="Icon to indicate this is a newer project"
               />
             ) : null}
-            <h2 className="mt-5 mb-2 uppercase">{project.title}</h2>
+            <h5 className="mt-5 mb-2 uppercase">{project.title}</h5>
             <p className="uppercase">{project.description}</p>
           </div>
         </div>

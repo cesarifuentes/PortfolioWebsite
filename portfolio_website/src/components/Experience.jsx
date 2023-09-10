@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section className="section-mb">
       {/* Title */}
-      <h3 className="text-center space-btwn-title sm:text-left">Experience</h3>
+      <h4 className="text-center space-btwn-title sm:text-left">Experience</h4>
       {/* Experiences */}
       {/* TODO: company and date */}
       {experiences.map((experience, index) => (
@@ -30,8 +30,8 @@ const Experience = () => {
           </div>
           {/* TEXT */}
           <div className="row-span-1 sm:col-span-6">
-            <p className="mt-5 mb-2 uppercase">{experience.date}</p>
-            <h2 className="leading-5 uppercase">{experience.title}</h2>
+            <h6 className="mt-5 mb-2 uppercase">{experience.date}</h6>
+            <h5 className="leading-5 uppercase">{experience.title}</h5>
             {/* <p>{experience.description}</p> */}
           </div>
         </div>

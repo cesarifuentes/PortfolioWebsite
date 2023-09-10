@@ -5,6 +5,8 @@ import { Helmet } from "react-helmet";
 const Home = () => {
   return (
     <div>
+      {/* TODO: move this into higher file or create new component for after this */}
+
       <Helmet>
         <title>Cesar Fuentes</title>
         <meta
@@ -35,8 +37,6 @@ const Home = () => {
         {/* <meta property="fb:app_id" content="ID_APP_FACEBOOK" /> */}
       </Helmet>
 
-      {/* TODO: create new component for this */}
-
       <div className="">
         <div className=""></div>
         <div className="container mx-auto mt-10 sm:mt-15 lg:mt-0 sm:max-w-full sm:mx-0 xl:px-10 ">
@@ -49,7 +49,7 @@ const Home = () => {
               </div>
             </div>
             {/* FIXME: RIGHT - CONTENT */}
-            <div className="pt-40 pb-10 lg:pb-0 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-2/3">
+            <div className="pt-40 pb-10 lg:pb-0 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-3/5">
               {/* lg:w-1/2 */}
               {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
               <About />

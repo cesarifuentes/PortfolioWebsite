@@ -7,7 +7,7 @@ const About = () => {
     <>
       <section className="section-mb">
         {/* Title */}
-        <h3 className="text-center space-btwn-title sm:text-left">About</h3>
+        <h4 className="text-center space-btwn-title sm:text-left">About</h4>
 
         {paragraphs.map((paragraph, index) => (
           <div key={paragraph.id} className={`text-center sm:text-justify`}>
