@@ -11,7 +11,8 @@ const Sidebar = () => {
       {/* Top */}
       <div className="flex flex-col mt-5 gap-7 pb-11 lg:mt-0">
         {/* Logo */}
-        <div className="flex flex-col justify-center sm:justify-start sm:flex-row sm:items-center">
+
+        {/* <div className="flex flex-col justify-center sm:justify-start sm:flex-row sm:items-center">
           <img
             className="container mx-auto w-[50px] h-[36px] sm:w-[50px] sm:mx-0 sm:mr-3"
             src={globe}
@@ -22,13 +23,25 @@ const Sidebar = () => {
             Hi my name is Cesar <br />
             Welcome to my portfolio
           </h4>
-        </div>
+        </div> */}
 
         {/* Title */}
+        <div>
+          <h3 className="mb-4 text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
+            Hello, my name is
+          </h3>
+          <h1 className="text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
+            Cesar Fuentes
+          </h1>
+        </div>
 
-        <h1 className="text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
+        <h3 className="text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
           I create engaging, user-friendly online experiences.
-        </h1>
+        </h3>
+
+        {/* <h1 className="text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
+          I create engaging, user-friendly online experiences.
+        </h1> */}
 
         {/* <h3>Let's Connect</h3> */}
 

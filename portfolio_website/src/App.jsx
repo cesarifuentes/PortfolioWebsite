@@ -14,7 +14,6 @@ import Navigation from "./navigation";
 const App = () => (
   // <HelmetProvider context={helmetContext}>
   <>
-    {/* <h1>hellor</h1> */}
     <Navigation />
   </>
   // </HelmetProvider>

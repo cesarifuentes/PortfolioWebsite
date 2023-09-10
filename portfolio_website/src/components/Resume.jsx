@@ -1,19 +1,20 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const WorkArchive = () => {
+const Resume = () => {
   return (
     <>
       <Helmet>
-        <title>View Full Work History</title>
+        <title>Resume</title>
         <meta
           name="description"
           content="Cesar Fuentes is a software developer who creates engaging, user-friendly online experiences."
         />
       </Helmet>
-      <div>WorkArchive</div>
+
+      <div>Resume</div>
     </>
   );
 };
 
-export default WorkArchive;
+export default Resume;

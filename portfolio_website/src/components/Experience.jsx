@@ -1,5 +1,6 @@
 import React from "react";
 import { experiences, resume } from "../constants";
+import { Link } from "react-router-dom";
 
 const Experience = () => {
   return (
@@ -35,6 +36,10 @@ const Experience = () => {
           </div>
         </div>
       ))}
+
+      <Link to={"/work_archive"}>
+        <h5 className="link-to-full-display">See Full Work Experience</h5>
+      </Link>
     </section>
   );
 };

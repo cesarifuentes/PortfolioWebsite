@@ -1,6 +1,7 @@
 import React from "react";
 import { projects } from "../constants";
 import recent_tag from "../assets/new.svg";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -40,6 +41,10 @@ const Projects = () => {
           </div>
         </div>
       ))}
+
+      <Link to={"/project_archive"}>
+        <h5 className="link-to-full-display">See Full Project List</h5>
+      </Link>
     </section>
   );
 };

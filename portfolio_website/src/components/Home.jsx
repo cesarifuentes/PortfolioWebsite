@@ -41,15 +41,15 @@ const Home = () => {
         <div className=""></div>
         <div className="container mx-auto mt-10 sm:mt-15 lg:mt-0 sm:max-w-full sm:mx-0 xl:px-10 ">
           {/* this last xl:px-10 padding bridges the gap between lg and xl */}
-          <div className="mx-8 lg:mx-10 lg:flex lg:flex-row lg:gap-20 lg:justify-between xl:container xl:mx-auto">
+          <div className="mx-8 lg:mx-10 lg:flex lg:flex-row lg:gap-20 lg:justify-between xl:container xl:mx-auto ">
             {/* FIXME: LEFT - HEADER */}
-            <div className="lg:sticky lg:top-0 lg:max-h-screen lg:max-w-[400px]">
+            <div className="lg:sticky lg:top-0 lg:max-h-screen lg:max-w-[300px]">
               <div className="lg:h-screen lg:py-16">
                 <Sidebar />
               </div>
             </div>
             {/* FIXME: RIGHT - CONTENT */}
-            <div className="pt-40 pb-10 lg:pb-0 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-1/2 ">
+            <div className="pt-40 pb-10 lg:pb-0 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-2/3">
               {/* lg:w-1/2 */}
               {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
               <About />

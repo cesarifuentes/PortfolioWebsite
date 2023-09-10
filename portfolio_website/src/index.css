@@ -85,10 +85,10 @@ html {
 h1 {
   font-family: "HN-HeavyExtended";
   /* color: var(--white-1); */
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
-@media only screen and (min-width: 320px) {
+/* @media only screen and (min-width: 320px) {
   h1 {
     font-size: 2.3rem;
   }
@@ -104,7 +104,7 @@ h1 {
   h1 {
     font-size: 3rem;
   }
-}
+} */
 
 h2 {
   font-family: "HN-Medium";
@@ -171,6 +171,10 @@ p {
 
 .space-btwn-title {
   margin-bottom: 40px;
+}
+
+.link-to-full-display {
+  margin-top: 20px;
 }
 /* section {
   gap: 20px;
