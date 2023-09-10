@@ -45,5 +45,15 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 
 ## Roadmap
 
+- [ ] Create new pages and navigation
+- [ ] /resume
+- [ ] /project_archive
+- [ ] /work_archive (don't include helmet)
+- [ ] Different kinds of tags
+- [ ] Make images photos into links
+- [ ] Add ending statement to noramlize sections\
+- [ ] SEO
+- [ ] Update Resume
+
 - [ ] As of now, images must be png files of size 1020 by 708.
 - [ ] Blurring effect glitch when hovering over cards.
