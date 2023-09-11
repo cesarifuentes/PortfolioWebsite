@@ -24,16 +24,18 @@ const About = () => {
           ></CardImage>
 
           <CardText>
-            {paragraphs.map((paragraph, index) => (
-              <div key={paragraph.id} className={`text-center sm:text-left`}>
-                <p>{paragraph.text}</p>
-                <br />
-              </div>
-            ))}
+            <div className="grid content-end paragraph grid-cols">
+              {paragraphs.map((paragraph, index) => (
+                <div key={paragraph.id} className={`text-center sm:text-left `}>
+                  <p>{paragraph.text}</p>
+                  <br />
+                </div>
+              ))}
 
-            <Link to={"/"}>
-              <h3 className="link-to-full-display">(Read more)</h3>
-            </Link>
+              <Link to={"/"}>
+                <h3 className=" link-to-full-display">(Read more)</h3>
+              </Link>
+            </div>
           </CardText>
         </Card>
       </section>

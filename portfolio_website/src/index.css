@@ -92,3 +92,9 @@ section {
 .place-self-center-start {
   place-self: center start;
 }
+
+@media screen and (min-width: 1024px) {
+  .paragraph {
+    height: calc(100vh - 128px); /* chrome only i think */
+  }
+}

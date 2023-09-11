@@ -41,7 +41,7 @@ export const projects = [
     id: "project-1",
     title: "Replace Me",
     description:
-      "An iOS app that helps people remember to replace commonly disregarded household items. In production.",
+      "An iOS app that helps people remember to replace commonly disregarded household items.",
     link: "",
     image: replace_me,
     isNew: true,
@@ -51,7 +51,7 @@ export const projects = [
     id: "project-2",
     title: "Las Huastecas",
     description:
-      "A full stack e-commerce website for a local Mexican restaurant. In production.",
+      "A full stack e-commerce website for a local Mexican restaurant.",
     link: "",
     image: huastecas,
     isNew: true,
@@ -61,7 +61,7 @@ export const projects = [
     id: "project-3",
     title: "Spotify Arcade",
     description:
-      "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best. In production.",
+      "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best.",
     link: "",
     image: spotify_arcade,
     isNew: false,
