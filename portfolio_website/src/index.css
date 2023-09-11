@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --black-color: #2d200f;
-  background-color: white;
+  --color-custom: #2d200f;
+  --bg-color-custom: white;
+  /* --black-color: #2d200f;
+  background-color: white; */
 
   font-synthesis: none; /* whether browser may synthesize typefaces when missing in font-family */
   text-rendering: optimizeLegibility; /* as read */
@@ -15,7 +17,8 @@
 
 body {
   font-family: "Helvetica", "Inter", "Arial", sans-serif;
-  color: var(--black-color);
+  color: var(--color-custom);
+  background-color: var(--bg-color-custom);
   font-size: 16px;
   font-weight: normal;
   line-height: 1;
@@ -81,6 +84,7 @@ section {
 
 .link-to-full-display {
   margin-top: 20px;
+  text-align: center;
 }
 
 .project,
@@ -93,8 +97,21 @@ section {
   place-self: center start;
 }
 
+/* Form 1 to Form 2 */
 @media screen and (min-width: 1024px) {
   .paragraph {
     height: calc(100vh - 128px); /* chrome only i think */
   }
+  .link-to-full-display {
+    text-align: left;
+  }
+}
+
+.border-color {
+  border-color: var(--color-custom);
+}
+.white-filter {
+  /* Change to white */
+  /* filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(171deg)
+    brightness(101%) contrast(106%); */
 }

@@ -33,7 +33,7 @@ const About = () => {
               ))}
 
               <Link to={"/"}>
-                <h3 className=" link-to-full-display">(Read more)</h3>
+                <h3 className="link-to-full-display">(Read more)</h3>
               </Link>
             </div>
           </CardText>

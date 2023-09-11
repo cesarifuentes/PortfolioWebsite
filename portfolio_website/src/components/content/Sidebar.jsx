@@ -64,7 +64,7 @@ const Sidebar = () => {
             <div key={socialMedia.id}>
               <a href={socialMedia.link} target="_blank">
                 <img
-                  className="w-[25px] h-[25px] hover:scale-105 "
+                  className="w-[25px] h-[25px] hover:scale-105 white-filter"
                   src={socialMedia.icon}
                   alt={`${socialMedia.name} Icon Link`}
                 />
@@ -81,7 +81,7 @@ const Sidebar = () => {
 
         {/* Barcode */}
         <img
-          className="container mx-auto w-[207px] h-[24px] sm:ml-0"
+          className="container mx-auto w-[207px] h-[24px] sm:ml-0 white-filter"
           src={barcode}
           alt="Barcode lines for artistic effect"
         />

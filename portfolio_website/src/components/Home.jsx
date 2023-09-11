@@ -55,7 +55,10 @@ const Home = () => {
               <About />
               <Projects />
               <Experience />
-              <p> Designed & Developed by Cesar Fuentes.</p>
+              <p className="text-center lg:text-left">
+                {" "}
+                Designed & Developed by Cesar Fuentes.
+              </p>
             </div>
           </div>
         </div>
