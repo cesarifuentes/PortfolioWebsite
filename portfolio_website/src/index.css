@@ -5,11 +5,12 @@
 :root {
   font-size: 16px;
   line-height: 1;
-  color: black;
+  color: #1d1d1f;
+  --gray-color: rgba(0, 0, 0, 0.204);
 
   --threshold: 50%;
 
-  background-color: white;
+  background-color: #f5f5f7;
   font-synthesis: none; /* whether browser may synthesize typefaces when missing in font-family */
   text-rendering: optimizeLegibility; /* as read */
   -webkit-font-smoothing: antialiased; /* controls anti-aliasing when fonts are rendered */
@@ -108,6 +109,7 @@ h1 {
 
 h5 {
   font-family: "HN-Medium";
+
   /* color: var(--white-1);
    */
   font-size: 1.2em;
@@ -131,7 +133,9 @@ h4 {
 
 h3 {
   font-family: "HN-Bold";
-  color: var(--white-2);
+  color: var(--gray-color);
+  font-size: 1.3em;
+
   line-height: 1.5;
 }
 
@@ -175,7 +179,7 @@ p {
   width: 100%;
 }
 
-.section-mb {
+section {
   margin-bottom: 130px;
 }
 
@@ -223,11 +227,12 @@ p {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: drop-shadow(0px 4px 10px #00000040) grayscale(100%);
 }
-.project:hover,
+
+/* .project:hover,
 .card:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(0%);
   filter: drop-shadow(0px 4px 20px #00000020) grayscale(0%);
-}
+} */
 
 /* 
 .grayscale {

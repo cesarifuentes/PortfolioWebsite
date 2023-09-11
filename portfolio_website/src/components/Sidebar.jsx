@@ -27,10 +27,6 @@ const Sidebar = () => {
 
         {/* Title */}
 
-        {/* <h3 className="mb-4 text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
-          Hello, my name is
-        </h3> */}
-
         <div>
           {/* <h3 className="mb-4 text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
             Hello, my name is
@@ -42,19 +38,9 @@ const Sidebar = () => {
             I create engaging, user-friendly online experiences.
           </h3> */}
           <h3 className="mt-4 text-center sm:w-2/3 lg:w-full sm:text-left">
-            that creates engaging & user-friendly online experiences.
+            I create engaging & user-friendly online experiences.
           </h3>
         </div>
-
-        {/* <h3 className="text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
-          I create engaging, user-friendly online experiences.
-        </h3> */}
-
-        {/* <h1 className="text-center uppercase sm:w-2/3 lg:w-full sm:text-left">
-          I create engaging, user-friendly online experiences.
-        </h1> */}
-
-        {/* <h3>Let's Connect</h3> */}
 
         {/* Buttons */}
         <div className="text-center sm:text-left">
