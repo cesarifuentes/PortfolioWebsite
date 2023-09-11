@@ -49,7 +49,7 @@ const Home = () => {
               </div>
             </div>
             {/* FIXME: RIGHT - CONTENT */}
-            <div className="pt-40 pb-10 lg:pb-0 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-3/5 ">
+            <div className="pt-40 pb-10 lg:pb-0 lg:min-h-screen lg:pt-0 lg:my-16 lg:w-3/5 lg:pr-10">
               {/* lg:w-1/2 */}
               {/* TODO: class="pt-24 lg:w-1/2 lg:py-24" */}
               <About />
