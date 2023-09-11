@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import { projects } from "../constants";
+import { projects } from "../../constants";
 import recent_tag from "../assets/new.svg";
 import Card from "./Card";
 import CardImage from "./CardImage";

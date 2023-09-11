@@ -1,17 +1,19 @@
 import React from "react";
-import { projects } from "../constants";
-import recent_tag from "../assets/new.svg";
+import { projects } from "../../constants";
+import recent_tag from "../../assets/new.svg";
 import { Link } from "react-router-dom";
 
-import Card from "./Card";
-import CardImage from "./CardImage";
-import CardText from "./CardText";
+import Card from "../card/Card";
+import CardImage from "../card/CardImage";
+import CardText from "../card/CardText";
 
 const Projects = () => {
   return (
     <section>
       {/* Title */}
-      <h4 className="text-center space-btwn-title sm:text-left">Projects</h4>
+      <h4 className="text-center space-btwn-title sm:text-left lg:hidden">
+        Projects
+      </h4>
       {/* Projects */}
       {projects.map((project, index) => (
         <div
@@ -42,7 +44,7 @@ const Projects = () => {
       ))}
 
       <Link to={"/project_archive"}>
-        <h6 className="link-to-full-display">See Full Project List</h6>
+        <h3 className="link-to-full-display">(See Full Project List)</h3>
       </Link>
     </section>
   );

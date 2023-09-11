@@ -31,13 +31,22 @@ html {
 }
 
 h1 {
-  font-size: 5rem;
+  /* Title */
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  /* Links */
+  font-size: 0.625em;
+  line-height: 1.1em;
   font-weight: bold;
 }
 
 h4 {
   /* Subtitles */
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.2em;
   font-weight: bold;
   text-transform: uppercase;
@@ -45,25 +54,25 @@ h4 {
 
 h5 {
   /* Buttons */
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 0.7em;
   font-weight: bold;
   text-transform: uppercase;
 }
 h6 {
-  font-size: 0.7em;
+  font-size: 0.625em;
   line-height: 1.1em;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 0.8em;
+  font-size: 0.75em;
   line-height: 1.5em;
 }
 
 section {
-  margin-bottom: 130px;
+  margin-bottom: 200px;
 }
 
 .space-btwn-title {

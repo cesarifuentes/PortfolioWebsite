@@ -32,15 +32,7 @@ export const socialMedias = [
 export const paragraphs = [
   {
     id: "paragraph-1",
-    text: "This website is a showcase of my achievements throughout my career as a software developer. Each element represents a meaningful milestone in my professional journey. These endeavors are meticulously created, resembling finely crafted pieces of art in their attention to detail and aesthetic quality.",
-  },
-  {
-    id: "paragraph-2",
-    text: "My foray into the realm of art commenced during my high school years, during which I pursued courses in art and graphic design, providing me with a strong foundation in artistic expression. Subsequently, I pursued a Bachelor's degree in Computer Science at Texas A&M University, where I had the opportunity to delve into the worlds of software development and 3D graphics.",
-  },
-  {
-    id: "paragraph-3",
-    text: "Whether I'm coding, creating a new graphic, or thinking of my next big venture, I infuse each undertaking with a discernible artistic sensibility. When I’m not furiously typing at my computer, you’ll find me playing Dead by Daylight, dedicating time to volunteer for the youth in my community, or going for a run.",
+    text: "As someone deeply engaged in various interests, I've always dabbled in a wide array of fields, including volunteering, graphic design, mathematics, and science. I didn't have a clear direction in life until I enrolled in my high school's AP Computer Science course. It was during this course that I discovered my true passion. My very first coding project was a pomodoro timer app designed to aid students in managing their study time. Through this experience, I found a fulfilling path where I could assist others while enhancing my problem-solving abilities and creating solutions that are both functional and visually appealing. To this day, I continue to embrace that sentiment, building things that are practical, of top-notch quality, and aesthetically pleasing.",
   },
 ];
 

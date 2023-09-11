@@ -1,16 +1,18 @@
 import React from "react";
-import { experiences, resume } from "../constants";
+import { experiences, resume } from "../../constants";
 import { Link } from "react-router-dom";
 
-import Card from "./Card";
-import CardImage from "./CardImage";
-import CardText from "./CardText";
+import Card from "../card/Card";
+import CardImage from "../card/CardImage";
+import CardText from "../card/CardText";
 
 const Experience = () => {
   return (
     <section>
       {/* Title */}
-      <h4 className="text-center space-btwn-title sm:text-left">Experience</h4>
+      <h4 className="text-center space-btwn-title sm:text-left lg:hidden">
+        Experience
+      </h4>
       {/* Experiences */}
       {/* TODO: company and date */}
       {experiences.map((experience, index) => (
@@ -30,7 +32,7 @@ const Experience = () => {
       ))}
 
       <Link to={"/work_archive"}>
-        <h6 className="link-to-full-display">See Full Work Experience</h6>
+        <h3 className="link-to-full-display">(See Full Work Experience)</h3>
       </Link>
     </section>
   );
