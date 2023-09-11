@@ -2,10 +2,10 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import { projects } from "../../constants";
-import recent_tag from "../assets/new.svg";
-import Card from "./Card";
-import CardImage from "./CardImage";
-import CardText from "./CardText";
+// import recent_tag from "../assets/new.svg";
+import Card from "../card/Card";
+import CardImage from "../card/Card";
+import CardText from "../card/CardText";
 import { Link } from "react-router-dom";
 
 const ProjectArchive = () => {
@@ -47,12 +47,12 @@ const ProjectArchive = () => {
                   ></CardImage>
 
                   <CardText>
-                    {project.isNew ? (
+                    {/* {project.isNew ? (
                       <img
                         src={recent_tag}
                         alt="Icon to indicate this is a newer project"
                       />
-                    ) : null}
+                    ) : null} */}
                     <h5 className="mt-5 mb-2 uppercase">{project.title}</h5>
                     <p className="uppercase">{project.description}</p>
                   </CardText>

@@ -43,7 +43,7 @@ const Home = () => {
           {/* this last xl:px-10 padding bridges the gap between lg and xl */}
           <div className="mx-8 lg:mx-10 lg:flex lg:flex-row lg:gap-20 lg:justify-between xl:container xl:mx-auto ">
             {/* FIXME: LEFT - HEADER */}
-            <div className="lg:sticky lg:top-0 lg:max-h-screen lg:max-w-[300px]">
+            <div className="lg:sticky lg:top-0 lg:max-h-screen lg:max-w-[300px] ">
               <div className="lg:h-screen lg:py-16">
                 <Sidebar />
               </div>

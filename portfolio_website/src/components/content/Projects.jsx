@@ -30,14 +30,14 @@ const Projects = () => {
             ></CardImage>
 
             <CardText>
-              {project.isNew ? (
+              {/* {project.isNew ? (
                 <img
                   src={recent_tag}
                   alt="Icon to indicate this is a newer project"
                 />
-              ) : null}
-              <h5 className="mt-5 mb-2 uppercase">{project.title}</h5>
-              <p className="uppercase">{project.description}</p>
+              ) : null} */}
+              <h5 className="">{project.title}</h5>
+              <p className="mt-2">{project.description}</p>
             </CardText>
           </Card>
         </div>

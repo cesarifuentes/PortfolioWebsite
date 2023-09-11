@@ -25,7 +25,7 @@ const About = () => {
 
           <CardText>
             {paragraphs.map((paragraph, index) => (
-              <div key={paragraph.id} className={`text-center sm:text-justify`}>
+              <div key={paragraph.id} className={`text-center sm:text-left`}>
                 <p>{paragraph.text}</p>
                 <br />
               </div>

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../components/Home";
-import ProjectArchive from "../components/ProjectArchive";
-import WorkArchive from "../components/WorkArchive";
+import ProjectArchive from "../components/archive/ProjectArchive";
+import WorkArchive from "../components/archive/WorkArchive";
 import Resume from "../components/archive/Resume";
 
 const Navigation = () => {

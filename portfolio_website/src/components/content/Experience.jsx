@@ -24,8 +24,8 @@ const Experience = () => {
             ></CardImage>
 
             <CardText>
-              <h6 className="mt-5 mb-2 uppercase">{experience.date}</h6>
-              <h5 className="leading-5 uppercase">{experience.title}</h5>
+              <h6 className="">{experience.date}</h6>
+              <h5 className="mt-2">{experience.title}</h5>
             </CardText>
           </Card>
         </div>
