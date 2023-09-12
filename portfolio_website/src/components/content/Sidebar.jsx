@@ -38,7 +38,7 @@ const Sidebar = () => {
             I create engaging, user-friendly online experiences.
           </h3> */}
           <h4 className="mt-4 text-center sm:w-2/3 lg:w-full sm:text-left">
-            Dallas-based software developer that creates engaging &
+            Software developer based in Dallas, Texas that creates engaging &
             user-friendly online experiences.
           </h4>
         </div>
@@ -75,8 +75,8 @@ const Sidebar = () => {
 
         {/* Text */}
         <h4 className="text-center uppercase sm:text-left">
-          Software Developer <br /> Based in Dallas Texas <br /> ©2023 All
-          Rights Reserved.{" "}
+          {/* Software Developer <br /> Based in Dallas Texas <br /> */}
+          ©2023 All Rights Reserved.{" "}
         </h4>
 
         {/* Barcode */}

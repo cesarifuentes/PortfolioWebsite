@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --color-custom: #2d200f;
-  --bg-color-custom: white;
+  --color-custom: white;
+  --bg-color-custom: #2d200f;
   /* --black-color: #2d200f;
   background-color: white; */
 
@@ -42,7 +42,8 @@ h1 {
 
 h3 {
   /* Links */
-  font-size: 0.625em;
+  font-size: 1em;
+  /*   font-size: 0.625em; */
   line-height: 1.1em;
   font-weight: bold;
 }
@@ -58,19 +59,22 @@ h4 {
 h5 {
   /* Buttons */
   font-size: 1em;
-  line-height: 0.7em;
+  line-height: 1em;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 2px;
 }
 h6 {
-  font-size: 0.625em;
+  font-size: 1em;
+  /* font-size: 0.625em; */
   line-height: 1.1em;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 0.75em;
+  font-size: 1em;
+  /* // 0.75em; */
   line-height: 1.5em;
 }
 
@@ -112,6 +116,17 @@ section {
 }
 .white-filter {
   /* Change to white */
-  /* filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(171deg)
-    brightness(101%) contrast(106%); */
+  filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(171deg)
+    brightness(101%) contrast(106%);
 }
+
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* .bkgd {
+  background-image: url("background.png");
+  background-size: cover;
+} */
