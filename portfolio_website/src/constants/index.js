@@ -108,17 +108,17 @@ export const experiences = [
     id: "experience-1",
     title: "Software Engineer Intern",
     company: "Publicis Sapient",
-    // description:
-    //   "Collaborated with engineering and product management interns to develop a digital, full-stack solution for a client.",
+    description:
+      "Collaborated with engineering and product management interns to develop a digital, full-stack solution for a client.",
     image: publicis,
-    date: "JUNE –– AUG 2022",
+    date: "JUNE 2022 –– AUG 2022",
   },
   {
     id: "experience-2",
     title: "B.S. in Computer Science",
     company: "Texas A&M University",
-    // description:
-    //   "Engaged in rigorous curriculum to develop the necessary skills and knowledge for a successful career in the tech industry.",
+    description:
+      "Engaged in rigorous curriculum to develop the necessary skills and knowledge for a successful career in the tech industry.",
     image: tamu,
     date: "AUG 2019 –– MAY 2023",
   },

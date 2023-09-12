@@ -47,11 +47,11 @@ const About = () => {
                 ></HoverImage>
                 app designed to aid students in managing their study time.
                 Through this experience, I found a fulfilling path where I could
-                assist others while enhancing my problem-solving abilities and
-                creating solutions that are both functional and visually
-                appealing. To this day, I continue to embrace that sentiment,
-                building things that are practical, of top-notch quality, and
-                aesthetically pleasing.
+                assist, enhancing my problem-solving abilities, and create
+                solutions that are both functional and visually appealing. To
+                this day, I continue to embrace that sentiment, building things
+                that are practical, of top-notch quality, and aesthetically
+                pleasing.
               </p>
 
               <Link to={"/"}>
