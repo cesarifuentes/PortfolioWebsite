@@ -22,8 +22,8 @@ const WorkArchive = () => {
             <Link to={"/"}>
               <h5 className="text-center">&lt;&lt; Return Home &gt;&gt;</h5>
             </Link>
-            <h1 className="pb-20 text-center space-btwn-title">
-              Work Experience, <em>Archive</em>
+            <h1 className="pb-10 text-center space-btwn-title">
+              Work Experience, <br /> <em>Archive</em>
             </h1>
 
             {/* Table */}

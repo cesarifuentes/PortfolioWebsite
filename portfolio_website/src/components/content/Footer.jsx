@@ -12,7 +12,7 @@ const Footer = () => {
       <Card>
         <CardImage></CardImage>
         <CardText>
-          <p> Designed & Developed by Cesar Fuentes.</p>
+          <p> Designed by Cesar Fuentes.</p>
         </CardText>
       </Card>
     </>

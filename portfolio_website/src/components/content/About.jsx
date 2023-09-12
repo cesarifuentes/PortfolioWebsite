@@ -49,7 +49,7 @@ const About = () => {
           <Card>
             <CardImage></CardImage>
             <CardText>
-              <Link to={"/"}>
+              <Link to={"/about_extended"}>
                 <h3 className="link-to-full-display">(Read more)</h3>
               </Link>
             </CardText>
