@@ -116,8 +116,8 @@ section {
 }
 .white-filter {
   /* Change to white */
-  filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(171deg)
-    brightness(101%) contrast(106%);
+  /* filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(171deg)
+    brightness(101%) contrast(106%); */
 }
 
 /* body {
@@ -141,4 +141,21 @@ tbody th:hover {
 
 td {
   border-top: 1px solid;
+}
+
+.appearing-image {
+  display: none;
+  /* z-index: -100; */
+}
+
+.hoverable-text:hover + .appearing-image {
+  display: block;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  margin-bottom: 20px;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  /* margin: auto; */
+  height: 300px;
 }
