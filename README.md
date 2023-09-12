@@ -1,36 +1,60 @@
-# Portfolio Website
+<p align="center" style="font-size:64px">
+    💫
+</p>
+<h1 align="center">
+  Portfolio Website
+</h1>
 
-![Static Badge](https://img.shields.io/badge/version-1.0-blue)
-![Static Badge](https://img.shields.io/badge/build-passing-brightgreen)
-![Static Badge](https://img.shields.io/badge/repo_status-active-brightgreen)
+<p align="center">
+  This is my personal website.
+  <a href="https://cesarfuentes.com"> Visit it here.</a>
+</p>
+
+<p align="center">
+  <a href="">
+    <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-brightgreen" />
+  </a>
+    <a href="">
+    <img alt="Version" src="https://img.shields.io/badge/build-passing-brightgreen" />
+  </a>
+    <a href="">
+    <img alt="Version" src="https://img.shields.io/badge/repo_status-active-brightgreen" />
+  </a>
+
+</p>
+
+<!-- <p align="center">
+  <a href="">
+    <img alt="Image" src="" />
+  </a>
+</p> -->
+
+## 🛠️ Installation & Start Up
+
 [![General badge](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&logoWidth=30.svg)]()
 [![General badge](https://img.shields.io/badge/-Tailwind-06B6D4?logo=tailwindcss&logoColor=white&logoWidth=30.svg)]()
 [![General badge](https://img.shields.io/badge/-Hostinger-673EE6)]()
 
-This is my personal website. [Visit it here.](https://cesarfuentes.com)
+1. Use the package manager [npm](https://www.npmjs.com) to install Tailwind. Then, run the application.
 
-## Installation & Usage
+   ```
+   cd portfolio_website
+   npm run dev -- --host
+   ```
 
-Use the package manager [npm](https://www.npmjs.com) to install Tailwind. Then, run the application.
+2. Make dist folder for distribution.
 
-```
-cd portfolio_website
-npm run dev -- --host
-```
+   ```
+   npm run build
+   ```
 
-Make dist folder for distribution.
+3. Open the local host or network links that appear in the terminal.
 
-```
-npm run build
-```
-
-Then open the local host or network links that appear in the terminal.
-
-## Contributing
+## 🫱‍🫲 Contributing
 
 As of right now, I am not accepting pull requests. I intend on changing this and welcoming pull requests in the near future.
 
-## Acknowledgments
+## 🗣️ Acknowledgments
 
 I want to ackowledge the individuals whose websites served as sources of inspiration and guided me toward creating a well-crafted website.
 
@@ -43,17 +67,26 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 - [Benjamin den Boer](https://framer.tips/?ref=onepagelove)
 - [Github Codespaces](https://github.com/features/codespaces)
 
-## Roadmap
+## ✅ Roadmap
 
-- [ ] Create new pages and navigation
-- [ ] /resume
-- [ ] /project_archive
-- [ ] /work_archive (don't include helmet)
-- [ ] Different kinds of tags
-- [ ] Make images photos into links
-- [ ] Add ending statement to noramlize sections\
+#### 🔴 High
+
+- [ ] Created detailed pages for each section
+  - [ ] project_archive (include helmet)
+  - [ ] work_archive
+  - [ ] about_me (include helmet)
+  - [ ] resume
+
+#### 🟠 Medium
+
 - [ ] SEO
+  - [ ] Different kinds of tags
+  - [ ] Turn images into links
+
+#### 🟡 Low
+
 - [ ] Update Resume
 
-- [ ] As of now, images must be png files of size 1020 by 708.
-- [ ] Blurring effect glitch when hovering over cards.
+## 🪲 Known Problems
+
+- As of now, images must be png files of size 1020 by 708.
