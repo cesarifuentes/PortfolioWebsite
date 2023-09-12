@@ -19,21 +19,11 @@ const About = () => {
           About
         </h4>
 
-        <Card>
-          <CardImage
-          // image={polaroid}
-          // alt={`ID Card Picture of me when I was at ${experience.company}`}
-          ></CardImage>
+        <div className="grid content-end paragraph grid-cols">
+          <Card>
+            <CardImage></CardImage>
 
-          <CardText>
-            <div className="grid content-end paragraph grid-cols">
-              {/* {paragraphs.map((paragraph, index) => (
-                <div key={paragraph.id} className={`text-center sm:text-left `}>
-                  <p>{paragraph.text}</p>
-                  <br />
-                </div>
-              ))} */}
-
+            <CardText>
               <p>
                 As someone deeply engaged in various interests, I've always
                 dabbled in a wide array of fields, including volunteering,
@@ -53,18 +43,18 @@ const About = () => {
                 that are practical, of top-notch quality, and aesthetically
                 pleasing.
               </p>
-            </div>
-          </CardText>
-        </Card>
+            </CardText>
+          </Card>
 
-        <Card>
-          <CardImage></CardImage>
-          <CardText>
-            <Link to={"/"}>
-              <h3 className="link-to-full-display">(Read more)</h3>
-            </Link>
-          </CardText>
-        </Card>
+          <Card>
+            <CardImage></CardImage>
+            <CardText>
+              <Link to={"/"}>
+                <h3 className="link-to-full-display">(Read more)</h3>
+              </Link>
+            </CardText>
+          </Card>
+        </div>
       </section>
     </>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Sidebar, About, Projects, Experience } from "../components";
+import { Sidebar, About, Projects, Experience, Footer } from "../components";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -55,10 +55,7 @@ const Home = () => {
               <About />
               <Projects />
               <Experience />
-              <p className="text-center lg:text-left">
-                {" "}
-                Designed & Developed by Cesar Fuentes.
-              </p>
+              <Footer />
             </div>
           </div>
         </div>

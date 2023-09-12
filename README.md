@@ -86,6 +86,7 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 #### 🟡 Low
 
 - [ ] Update Resume
+- [ ] Shadow Bug
 
 ## 🪲 Known Problems
 
