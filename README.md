@@ -72,7 +72,6 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 #### 🔴 High
 
 - [ ] Created detailed pages for each section
-  - [ ] project_archive (include helmet)
   - [ ] work_archive
   - [ ] about_me (include helmet)
   - [ ] resume
@@ -82,6 +81,7 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 - [ ] SEO
   - [ ] Different kinds of tags
   - [ ] Turn images into links
+- [ ] Show Project Archice tools
 
 #### 🟡 Low
 

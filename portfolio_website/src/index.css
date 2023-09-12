@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --color-custom: white;
-  --bg-color-custom: #2d200f;
+  --color-custom: #2d200f;
+  --bg-color-custom: white;
   /* --black-color: #2d200f;
   background-color: white; */
 
@@ -120,13 +120,25 @@ section {
     brightness(101%) contrast(106%);
 }
 
-body {
+/* body {
   background-image: url("background.png");
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
 /* .bkgd {
   background-image: url("background.png");
   background-size: cover;
 } */
+
+tbody tr:hover {
+  opacity: 0.3;
+}
+
+tbody th:hover {
+  opacity: 1;
+}
+
+td {
+  border-top: 1px solid;
+}

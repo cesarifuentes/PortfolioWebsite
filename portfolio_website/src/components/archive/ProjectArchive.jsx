@@ -7,6 +7,7 @@ import Card from "../card/Card";
 import CardImage from "../card/Card";
 import CardText from "../card/CardText";
 import { Link } from "react-router-dom";
+import Button from "../elements/Button";
 
 const ProjectArchive = () => {
   return (
@@ -23,42 +24,45 @@ const ProjectArchive = () => {
         <div className="mx-8 lg:mx-10 lg:flex lg:flex-row lg:gap-20 lg:justify-between xl:container xl:mx-auto ">
           {/* create a link back */}
           <section className="py-20">
-            <Link to={"/"}>
-              <h5 className="text-center link-to-full-display">
-                WWW.CESARFUENTES.COM
-              </h5>
-            </Link>
-
             {/* Title */}
-            <h4 className="pb-20 text-center space-btwn-title">Projects</h4>
-            {/* Projects */}
-            {projects.map((project, index) => (
-              <div
-                key={project.id}
-                className="mb-20 lg:mb-12"
+            <Link to={"/"}>
+              <h5 className="text-center">&lt;&lt; Return Home &gt;&gt;</h5>
+            </Link>
+            <h1 className="pb-20 text-center space-btwn-title">
+              Projects, <em>Archive</em>
+            </h1>
 
-                // group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50
-              >
-                <Card>
-                  <CardImage
-                    image={project.image}
-                    alt={`${project.alt}`}
-                    link={project.link}
-                  ></CardImage>
-
-                  <CardText>
-                    {/* {project.isNew ? (
-                      <img
-                        src={recent_tag}
-                        alt="Icon to indicate this is a newer project"
-                      />
-                    ) : null} */}
-                    <h5 className="mt-5 mb-2 uppercase">{project.title}</h5>
-                    <p className="uppercase">{project.description}</p>
-                  </CardText>
-                </Card>
-              </div>
-            ))}
+            {/* Table */}
+            <table className="mx-auto table-auto">
+              <thead>
+                <tr className="text-left">
+                  <th className="hidden px-6 py-3 md:block">YEAR</th>
+                  <th className="px-6 py-3">PROJECT</th>
+                  {/* <th className="hidden px-6 py-3 lg:flex">Tools</th> */}
+                  <th className="hidden px-6 py-3 md:block">DESCRIPTION</th>
+                  <th className="px-6 py-3">LINK</th>
+                </tr>
+              </thead>
+              <tbody>
+                {projects.map((project) => (
+                  <tr>
+                    <td className="hidden px-6 py-4 md:block">
+                      {project.year}
+                    </td>
+                    <td className="px-6 py-4">{project.title}</td>
+                    {/* <td className="hidden px-6 py-4 lg:flex">
+                      {project.tools.toString()}
+                    </td> */}
+                    <td className="hidden px-6 py-4 md:block">
+                      {project.description}
+                    </td>
+                    <td className="px-6 py-4">
+                      <a href={project.link}>{project.link_title}</a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </section>
         </div>
       </div>
@@ -67,3 +71,11 @@ const ProjectArchive = () => {
 };
 
 export default ProjectArchive;
+
+// {/* {project.tools[0]} */}
+// <div className="md:block">
+
+//   {/* {project.tools.map(
+//     (tool, index) => project.tools[index] + " "
+//   )} */}
+// </div>

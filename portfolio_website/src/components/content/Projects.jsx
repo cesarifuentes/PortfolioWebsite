@@ -19,27 +19,22 @@ const Projects = () => {
         <div
           key={project.id}
           className="mb-20 lg:mb-5"
-
           // group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50
         >
-          <Card>
-            <CardImage
-              image={project.image}
-              alt={`${project.alt}`}
-              link={project.link}
-            ></CardImage>
+          {project.isFeatured ? (
+            <Card>
+              <CardImage
+                image={project.image}
+                alt={`${project.alt}`}
+                link={project.link}
+              ></CardImage>
 
-            <CardText>
-              {/* {project.isNew ? (
-                <img
-                  src={recent_tag}
-                  alt="Icon to indicate this is a newer project"
-                />
-              ) : null} */}
-              <h5 className="">{project.title}</h5>
-              <p className="mt-2">{project.description}</p>
-            </CardText>
-          </Card>
+              <CardText>
+                <h5 className="">{project.title}</h5>
+                <p className="mt-2">{project.description}</p>
+              </CardText>
+            </Card>
+          ) : null}{" "}
         </div>
       ))}
 
@@ -54,3 +49,11 @@ export default Projects;
 // className={`${
 //   index === projects.length - 1 ? "mb-0" : "mb-20 lg:mb-6"
 // }`}
+{
+  /* {project.isNew ? (
+                <img
+                  src={recent_tag}
+                  alt="Icon to indicate this is a newer project"
+                />
+              ) : null} */
+}
