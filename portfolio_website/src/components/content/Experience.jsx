@@ -24,16 +24,21 @@ const Experience = () => {
             ></CardImage>
 
             <CardText>
-              <h6 className="">{experience.date}</h6>
+              <p className="">{experience.date}</p>
               <h5 className="mt-2">{experience.title}</h5>
             </CardText>
           </Card>
         </div>
       ))}
 
-      <Link to={"/work_archive"}>
-        <h3 className="link-to-full-display">(See Full Work Experience)</h3>
-      </Link>
+      <Card>
+        <CardImage></CardImage>
+        <CardText>
+          <Link to={"/work_archive"}>
+            <h3 className="link-to-full-display">(See Full Work Experience)</h3>
+          </Link>
+        </CardText>
+      </Card>
     </section>
   );
 };

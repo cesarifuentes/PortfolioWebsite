@@ -26,7 +26,7 @@ const Projects = () => {
               <CardImage
                 image={project.image}
                 alt={`${project.alt}`}
-                link={project.link}
+                // link={project.link}
               ></CardImage>
 
               <CardText>
@@ -38,9 +38,14 @@ const Projects = () => {
         </div>
       ))}
 
-      <Link to={"/project_archive"}>
-        <h3 className="link-to-full-display">(See Full Project List)</h3>
-      </Link>
+      <Card>
+        <CardImage></CardImage>
+        <CardText>
+          <Link to={"/project_archive"}>
+            <h3 className="link-to-full-display">(See Full Project List)</h3>
+          </Link>
+        </CardText>
+      </Card>
     </section>
   );
 };

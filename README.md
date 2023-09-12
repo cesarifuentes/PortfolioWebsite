@@ -72,9 +72,9 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 #### 🔴 High
 
 - [ ] Created detailed pages for each section
-  - [ ] work_archive
   - [ ] about_me (include helmet)
   - [ ] resume
+  - [ ] add hover images for each row
 
 #### 🟠 Medium
 

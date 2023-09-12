@@ -53,11 +53,16 @@ const About = () => {
                 that are practical, of top-notch quality, and aesthetically
                 pleasing.
               </p>
-
-              <Link to={"/"}>
-                <h3 className="link-to-full-display">(Read more)</h3>
-              </Link>
             </div>
+          </CardText>
+        </Card>
+
+        <Card>
+          <CardImage></CardImage>
+          <CardText>
+            <Link to={"/"}>
+              <h3 className="link-to-full-display">(Read more)</h3>
+            </Link>
           </CardText>
         </Card>
       </section>
