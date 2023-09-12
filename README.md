@@ -1,9 +1,7 @@
-<p align="center" style="font-size:64px">
-    💫
-</p>
 <h1 align="center">
-  Portfolio Website
+  💫 <br> Portfolio Website
 </h1>
+
 
 <p align="center">
   This is my personal website.
@@ -30,10 +28,6 @@
 </p> -->
 
 ## 🛠️ Installation & Start Up
-
-[![General badge](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&logoWidth=30.svg)]()
-[![General badge](https://img.shields.io/badge/-Tailwind-06B6D4?logo=tailwindcss&logoColor=white&logoWidth=30.svg)]()
-[![General badge](https://img.shields.io/badge/-Hostinger-673EE6)]()
 
 1. Use the package manager [npm](https://www.npmjs.com) to install Tailwind. Then, run the application.
 
