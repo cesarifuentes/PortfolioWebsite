@@ -11,7 +11,6 @@ import pdf from "../assets/F_Cesar_Resume_Sep2023.pdf";
 // social logos
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
-
 //
 import raytracer from "../assets/projects/raytracer.png";
 import teaparty from "../assets/projects/a6.mp4";
@@ -19,8 +18,6 @@ import genreate from "../assets/projects/genreate.png";
 import trip2gether from "../assets/projects/trip2gether.png";
 import website from "../assets/projects/website.png";
 import ros from "../assets/projects/ros.gif";
-
-// TODO: update these links and stuff
 
 export const socialMedias = [
   {
@@ -54,7 +51,6 @@ export const projects = [
     link_title: "",
     image: replace_me,
     alt: "iphone showing an app with a fire extinguisher",
-
     isFeatured: true,
     tools: ["Swift", "Xcode"],
   },

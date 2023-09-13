@@ -8,7 +8,7 @@ import CardText from "../card/CardText";
 
 const Experience = () => {
   return (
-    <section>
+    <section className="home-section">
       {/* Title */}
       <h4 className="text-center space-btwn-title sm:text-left lg:hidden">
         Experience

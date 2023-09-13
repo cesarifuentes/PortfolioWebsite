@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 import { experiences } from "../../constants";
 import { Link } from "react-router-dom";
+import HoverRow from "../elements/HoverRow";
 
 const WorkArchive = () => {
   return (
@@ -30,20 +31,25 @@ const WorkArchive = () => {
             <table className="mx-auto table-auto">
               <thead>
                 <tr className="text-left">
-                  <th className="px-6 py-3 ">YEAR</th>
-                  <th className="px-6 py-3">TITLE</th>
-                  <th className="px-6 py-3">COMPANY</th>
-                  <th className="px-6 py-3 ">DESCRIPTION</th>
+                  <th className="p-cell ">YEAR</th>
+                  <th className="p-cell">TITLE</th>
+                  <th className="p-cell">COMPANY</th>
+                  <th className="hidden p-cell md:block">DESCRIPTION</th>
                 </tr>
               </thead>
               <tbody>
                 {experiences.map((experience) => (
-                  <tr>
-                    <td className="px-6 py-4 ">{experience.date}</td>
-                    <td className="px-6 py-4 ">{experience.title}</td>
-                    <td className="px-6 py-4">{experience.company}</td>
-                    <td className="px-6 py-4">{experience.description}</td>
-                  </tr>
+                  <HoverRow image={experience.image}>
+                    <td className="p-cell ">{experience.date}</td>
+                    <td className="p-cell ">
+                      {experience.title}
+                      {experience.isFeatured ? "*" : ""}
+                    </td>
+                    <td className="p-cell">{experience.company}</td>
+                    <td className="hidden p-cell md:block">
+                      {experience.description}
+                    </td>
+                  </HoverRow>
                 ))}
               </tbody>
             </table>

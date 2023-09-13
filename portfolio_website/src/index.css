@@ -78,7 +78,7 @@ p {
   line-height: 1.5em;
 }
 
-section {
+.home-section {
   margin-bottom: 200px;
 }
 
@@ -139,8 +139,8 @@ tbody th:hover {
   opacity: 1;
 }
 
-td {
-  border-top: 1px solid;
+tr {
+  border-bottom: 1px solid;
 }
 
 .appearing-image {
@@ -159,4 +159,11 @@ td {
   margin-bottom: auto; */
   /* margin: auto; */
   height: 300px;
+}
+
+.p-cell {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }

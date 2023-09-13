@@ -13,7 +13,7 @@ import pomodoro from "../../assets/pomodoro.png";
 const About = () => {
   return (
     <>
-      <section>
+      <section className="home-section">
         {/* Title */}
         <h4 className="text-center space-btwn-title sm:text-left lg:hidden">
           About

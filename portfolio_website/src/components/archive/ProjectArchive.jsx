@@ -37,27 +37,26 @@ const ProjectArchive = () => {
             <table className="mx-auto table-auto">
               <thead>
                 <tr className="text-left">
-                  <th className="hidden px-6 py-3 md:block">YEAR</th>
-                  <th className="px-6 py-3">PROJECT</th>
-                  {/* <th className="hidden px-6 py-3 lg:flex">Tools</th> */}
-                  <th className="hidden px-6 py-3 md:block">DESCRIPTION</th>
-                  <th className="px-6 py-3">LINK</th>
+                  <th className="hidden p-cell sm:block">YEAR</th>
+                  <th className="p-cell">PROJECT</th>
+                  <th className="hidden p-cell md:block">DESCRIPTION</th>
+                  <th className=" p-cell">TOOLS</th>
+                  <th className="p-cell ">LINK</th>
                 </tr>
               </thead>
               <tbody>
                 {projects.map((project) => (
                   <HoverRow image={project.image}>
-                    <td className="hidden px-6 py-4 md:block">
-                      {project.year}
+                    <td className="hidden p-cell sm:block">{project.year}</td>
+                    <td className="p-cell">
+                      {project.title}
+                      {project.isFeatured ? "*" : ""}
                     </td>
-                    <td className="px-6 py-4">{project.title}</td>
-                    {/* <td className="hidden px-6 py-4 lg:flex">
-                      {project.tools.toString()}
-                    </td> */}
-                    <td className="hidden px-6 py-4 md:block">
+                    <td className="hidden p-cell md:block">
                       {project.description}
                     </td>
-                    <td className="px-6 py-4">
+                    <td className=" p-cell">{project.tools.join(", ")}</td>
+                    <td className="p-cell ">
                       <a href={project.link}>{project.link_title}</a>
                     </td>
                   </HoverRow>
