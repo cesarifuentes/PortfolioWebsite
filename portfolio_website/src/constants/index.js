@@ -38,7 +38,6 @@ export const paragraphs = [
 
 export const projects = [
   {
-    id: "project-1",
     title: "Replace Me",
     year: "2023",
     description:
@@ -51,7 +50,6 @@ export const projects = [
     alt: "iPhone showing replace me app",
   },
   {
-    id: "project-2",
     title: "Las Huastecas",
     year: "2023",
     description:
@@ -64,7 +62,6 @@ export const projects = [
     alt: "Laptop showing my e-commerce website",
   },
   {
-    id: "project-3",
     title: "Spotify Arcade",
     year: "2023",
     description:
@@ -77,7 +74,29 @@ export const projects = [
     alt: "Laptop showing my spotify arcade website",
   },
   {
-    id: "project-4",
+    title: "Portfolio Website",
+    year: "2023",
+    description: "This is my personal website.",
+    link: "https://www.cesarfuentes.com",
+    link_title: "www.cesarfuentes.com",
+    // image: space_sim,
+    tools: ["React", "Tailwind", "Hostinger"],
+    isFeatured: false,
+    // alt: "Laptop showing a screenshot of my space simulation video game",
+  },
+  {
+    title: "Matlab Unreal Engine Simulation with ROS2 Interface",
+    year: "2023",
+    description:
+      "A simulated driving scene that receives waypoints and outputs simulated sensor measurements.",
+    // link: "https://www.cesarfuentes.com",
+    // link_title: "www.cesarfuentes.com",
+    // image: space_sim,
+    tools: ["MATLAB", "Simulink", "Unreal", "ROS2", "Docker"],
+    isFeatured: false,
+    // alt: "Laptop showing a screenshot of my space simulation video game",
+  },
+  {
     title: "Space Simulation",
     year: "2022",
     description:
@@ -90,16 +109,74 @@ export const projects = [
     alt: "Laptop showing a screenshot of my space simulation video game",
   },
   {
-    id: "project-5",
-    title: "Portfolio Website",
-    year: "2023",
-    description: "This is my personal website.",
-    link: "https://www.cesarfuentes.com",
-    link_title: "www.cesarfuentes.com",
-    // image: space_sim,
-    tools: ["React", "Tailwind", "Hostinger"],
+    title: "Trips2Gether",
+    year: "2022",
+    description: "A web app that allows users to plan trips togethers.",
+    // link: "",
+    // link_title: "",
+    // image: ,
+    tools: ["XAMPP", "PHP", "MySQL", "Bootstrap"],
     isFeatured: false,
-    // alt: "Laptop showing a screenshot of my space simulation video game",
+    // alt: "",
+  },
+  {
+    title: "Optimization Engine Interface",
+    year: "2022",
+    description:
+      "A web app that allows users to select an optimization LP model, perform what-if analysis, and visualize the results.",
+    // link: "",
+    // link_title: "",
+    // image: ,
+    tools: ["MySQL", "Express", "Angular", "NodeJS"],
+    isFeatured: false,
+    // alt: "",
+  },
+  {
+    title: "MANRRS Outreach",
+    year: "2022",
+    description:
+      "A website that sends bulk text messages to a student organization's members.",
+    // link: "",
+    // link_title: "",
+    // image: ,
+    tools: ["Ruby on Rails", "Heroku", "Docker"],
+    isFeatured: false,
+    // alt: "",
+  },
+  {
+    title: "Ray Tracer",
+    year: "2022",
+    description: "A ray tracer with reflective spheres.",
+    // link: "",
+    // link_title: "",
+    // image: ,
+    tools: ["C++", "GLM", "Xcode"],
+    isFeatured: false,
+    // alt: "",
+  },
+  {
+    title: "GENREate",
+    year: "2021",
+    description:
+      "A web app that uses the Spotify API to create custom playlists based on the genres in your library.",
+    // link: "",
+    // link_title: "",
+    // image: ,
+    tools: ["HTML", "CSS", "Javascript", "NodeJS", "SpotifyAPI"],
+    isFeatured: false,
+    // alt: "",
+  },
+  {
+    title: "Movie Sorter GUI",
+    year: "2021",
+    description:
+      "A GUI that displays a database of movies in abstracted forms (top ten media, best horror films...)",
+    // link: "",
+    // link_title: "",
+    // image: ,
+    tools: ["Java", "AWS", "PostgreSQL", "JavaFX", "Eclipse"],
+    isFeatured: false,
+    // alt: "",
   },
 ];
 
@@ -111,7 +188,8 @@ export const experiences = [
     description:
       "Collaborated with engineering and product management interns to develop a digital, full-stack solution for a client.",
     image: publicis,
-    date: "JUNE 2022 –– AUG 2022",
+    date: "JUNE - AUG 2022",
+    isFeatured: true,
   },
   {
     id: "experience-2",
@@ -120,7 +198,47 @@ export const experiences = [
     description:
       "Engaged in rigorous curriculum to develop the necessary skills and knowledge for a successful career in the tech industry.",
     image: tamu,
-    date: "AUG 2019 –– MAY 2023",
+    date: "MAY 2023",
+    isFeatured: true,
+  },
+  {
+    id: "experience-3",
+    title: "President",
+    company: "TAMU UNICEF",
+    description:
+      "Planned and led club meetings and discussions on humanitarian issues.",
+    // image: tamu,
+    date: "2019-2023",
+    isFeatured: false,
+  },
+  {
+    id: "experience-4",
+    title: "Sales Associate",
+    company: "J. Crew Factory",
+    description:
+      "Collaborated with team members and managers to drive the business, jump in on tasks that help create a seamless customer experience, and bring a collaborative, kind, and inclusive energy to the sales floor.",
+    // image: tamu,
+    date: "2021",
+    isFeatured: false,
+  },
+  {
+    id: "experience-5",
+    title: "Calculus Tutor",
+    company: "Tutor.com",
+    description:
+      "Tutored high school and college students in Calculus I, II, and III.",
+    // image: tamu,
+    date: "2020",
+    isFeatured: false,
+  },
+  {
+    id: "experience-6",
+    title: "Commercial Painter",
+    company: "K. Hovnanian Homes",
+    description: "",
+    // image: tamu,
+    date: "2019-2023",
+    isFeatured: false,
   },
 ];
 

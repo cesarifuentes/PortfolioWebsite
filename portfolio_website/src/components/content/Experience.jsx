@@ -17,17 +17,19 @@ const Experience = () => {
       {/* TODO: company and date */}
       {experiences.map((experience, index) => (
         <div key={experience.id} className="mb-20 lg:mb-5">
-          <Card>
-            <CardImage
-              image={experience.image}
-              alt={`ID Card Picture of me when I was at ${experience.company}`}
-            ></CardImage>
+          {experience.isFeatured ? (
+            <Card>
+              <CardImage
+                image={experience.image}
+                alt={`ID Card Picture of me when I was at ${experience.company}`}
+              ></CardImage>
 
-            <CardText>
-              <p className="">{experience.date}</p>
-              <h5 className="mt-2">{experience.title}</h5>
-            </CardText>
-          </Card>
+              <CardText>
+                <p className="">{experience.date}</p>
+                <h5 className="mt-2">{experience.title}</h5>
+              </CardText>
+            </Card>
+          ) : null}{" "}
         </div>
       ))}
 
