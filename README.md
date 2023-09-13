@@ -75,6 +75,9 @@ I want to ackowledge the individuals whose websites served as sources of inspira
   - [ ] about_me (include helmet)
   - [ ] resume
   - [ ] add hover images for each row
+- [ ] Add college projects
+- [ ] Sort by Dates
+- [ ] Add more work experience
 
 #### 🟠 Medium
 
@@ -91,3 +94,4 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 ## 🪲 Known Problems
 
 - As of now, images must be png files of size 1020 by 708.
+- Lines on extra pages don't line up
