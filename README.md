@@ -69,6 +69,8 @@ I want to ackowledge the individuals whose websites served as sources of inspira
   - [ ] Turn images into links
   - [ ] Update helmets
 - [ ] Show Project Archice tools
+- [ ] Update card images
+- [ ] Update section titles to "recent"
 
 #### 🟠 Medium
 
