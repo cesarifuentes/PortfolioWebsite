@@ -64,25 +64,25 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 
 #### 🔴 High
 
-- [ ] Created detailed pages for each section
-  - [ ] about_me (include helmet)
-  - [ ] resume
-  - [ ] add hover images for each row
-- [ ] Add college projects
-- [ ] Sort by Dates
-- [ ] Add more work experience
-
-#### 🟠 Medium
-
 - [ ] SEO
   - [ ] Different kinds of tags
   - [ ] Turn images into links
+  - [ ] Update helmets
 - [ ] Show Project Archice tools
 
-#### 🟡 Low
+#### 🟠 Medium
 
 - [ ] Update Resume
 - [ ] Shadow Bug
+
+#### 🟡 Low
+
+- [ ] Make JSON format with images and product images (src and alt properties)
+- [ ] Sticker header for extra pages
+- [ ] Show tools at a larger breakpoint
+- [ ] Add Ebbi Project
+- [ ] Clean up code comments
+- [ ] Organize documentation for older projects
 
 ## 🪲 Known Problems
 
