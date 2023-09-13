@@ -27,7 +27,9 @@ const ProjectArchive = () => {
           <section className="py-20">
             {/* Title */}
             <Link to={"/"}>
-              <h5 className="text-center">&lt;&lt; Return Home &gt;&gt;</h5>
+              <h5 className="text-center hover:opacity-30">
+                &lt;&lt; Return Home &gt;&gt;
+              </h5>
             </Link>
             <h1 className="pb-10 text-center space-btwn-title">
               Projects, <em>Archive</em>
