@@ -12,6 +12,14 @@ import pdf from "../assets/F_Cesar_Resume_Sep2023.pdf";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 
+//
+import raytracer from "../assets/projects/raytracer.png";
+import teaparty from "../assets/projects/a6.mp4";
+import genreate from "../assets/projects/genreate.png";
+import trip2gether from "../assets/projects/trip2gether.png";
+import website from "../assets/projects/website.png";
+import ros from "../assets/projects/ros.gif";
+
 // TODO: update these links and stuff
 
 export const socialMedias = [
@@ -45,9 +53,10 @@ export const projects = [
     link: "",
     link_title: "",
     image: replace_me,
+    alt: "iphone showing an app with a fire extinguisher",
+
     isFeatured: true,
     tools: ["Swift", "Xcode"],
-    alt: "iPhone showing replace me app",
   },
   {
     title: "Las Huastecas",
@@ -57,9 +66,9 @@ export const projects = [
     link: "",
     link_title: "",
     image: huastecas,
+    alt: "laptop showing a mexican restaurant website",
     tools: ["MongoDB", "Express", "React", "NodeJS"],
     isFeatured: true,
-    alt: "Laptop showing my e-commerce website",
   },
   {
     title: "Spotify Arcade",
@@ -69,9 +78,9 @@ export const projects = [
     link: "",
     link_title: "",
     image: spotify_arcade,
+    alt: "a laptop showing my a game with music and other people",
     tools: ["Express", "React", "NodeJS"],
     isFeatured: true,
-    alt: "Laptop showing my spotify arcade website",
   },
   {
     title: "Portfolio Website",
@@ -79,22 +88,20 @@ export const projects = [
     description: "This is my personal website.",
     link: "https://www.cesarfuentes.com",
     link_title: "www.cesarfuentes.com",
-    // image: space_sim,
+    image: website,
+    alt: "a laptop showing a screenshot of a spaceship",
     tools: ["React", "Tailwind", "Hostinger"],
     isFeatured: false,
-    // alt: "Laptop showing a screenshot of my space simulation video game",
   },
   {
     title: "Matlab Unreal Engine Simulation with ROS2 Interface",
     year: "2023",
     description:
       "A simulated driving scene that receives waypoints and outputs simulated sensor measurements.",
-    // link: "https://www.cesarfuentes.com",
-    // link_title: "www.cesarfuentes.com",
-    // image: space_sim,
+    image: ros,
+    alt: "car simulation moving on the left with camera sensor and lidar sensor on the right",
     tools: ["MATLAB", "Simulink", "Unreal", "ROS2", "Docker"],
     isFeatured: false,
-    // alt: "Laptop showing a screenshot of my space simulation video game",
   },
   {
     title: "Space Simulation",
@@ -112,71 +119,66 @@ export const projects = [
     title: "Trips2Gether",
     year: "2022",
     description: "A web app that allows users to plan trips togethers.",
-    // link: "",
-    // link_title: "",
-    // image: ,
+    image: trip2gether,
+    alt: "comments that a user made about several vacation destinations",
     tools: ["XAMPP", "PHP", "MySQL", "Bootstrap"],
     isFeatured: false,
-    // alt: "",
   },
   {
     title: "Optimization Engine Interface",
     year: "2022",
     description:
       "A web app that allows users to select an optimization LP model, perform what-if analysis, and visualize the results.",
-    // link: "",
-    // link_title: "",
-    // image: ,
+    link_title: "(private)",
     tools: ["MySQL", "Express", "Angular", "NodeJS"],
     isFeatured: false,
-    // alt: "",
   },
   {
     title: "MANRRS Outreach",
     year: "2022",
     description:
       "A website that sends bulk text messages to a student organization's members.",
-    // link: "",
-    // link_title: "",
-    // image: ,
-    tools: ["Ruby on Rails", "Heroku", "Docker"],
+    link_title: "(private)",
+    tools: ["Ruby on Rails", "Heroku", "Docker", "PostgreSQL", "Python"],
     isFeatured: false,
-    // alt: "",
   },
   {
     title: "Ray Tracer",
     year: "2022",
     description: "A ray tracer with reflective spheres.",
-    // link: "",
-    // link_title: "",
-    // image: ,
+    image: raytracer,
+    alt: "2 blue and red spheres next to 2 reflective spheres",
     tools: ["C++", "GLM", "Xcode"],
     isFeatured: false,
-    // alt: "",
+  },
+  {
+    title: "Tea Party",
+    year: "2022",
+    description:
+      "An opengl project involving dynamic geometry, deferred rendering, and attenuated lights.",
+    image: teaparty,
+    alt: "rotating bunnies sheering teapots and bouncing spheres with lights spinning around the room",
+    tools: ["C++", "OpenGL", "Xcode"],
+    isFeatured: false,
   },
   {
     title: "GENREate",
     year: "2021",
     description:
       "A web app that uses the Spotify API to create custom playlists based on the genres in your library.",
-    // link: "",
-    // link_title: "",
-    // image: ,
+    image: genreate,
+    alt: "screenshot of spotify playlist with 4 songs",
     tools: ["HTML", "CSS", "Javascript", "NodeJS", "SpotifyAPI"],
     isFeatured: false,
-    // alt: "",
   },
   {
     title: "Movie Sorter GUI",
     year: "2021",
     description:
       "A GUI that displays a database of movies in abstracted forms (top ten media, best horror films...)",
-    // link: "",
-    // link_title: "",
-    // image: ,
+    link_title: "(private)",
     tools: ["Java", "AWS", "PostgreSQL", "JavaFX", "Eclipse"],
     isFeatured: false,
-    // alt: "",
   },
 ];
 

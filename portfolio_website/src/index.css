@@ -145,11 +145,12 @@ td {
 
 .appearing-image {
   display: none;
-  /* z-index: -100; */
+  visibility: hidden;
 }
 
 .hoverable-text:hover + .appearing-image {
   display: block;
+  visibility: visible;
   position: fixed;
   left: 20px;
   bottom: 20px;

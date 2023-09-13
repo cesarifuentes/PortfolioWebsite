@@ -8,6 +8,7 @@ import CardImage from "../card/Card";
 import CardText from "../card/CardText";
 import { Link } from "react-router-dom";
 import Button from "../elements/Button";
+import HoverRow from "../elements/HoverRow";
 
 const ProjectArchive = () => {
   return (
@@ -45,7 +46,7 @@ const ProjectArchive = () => {
               </thead>
               <tbody>
                 {projects.map((project) => (
-                  <tr>
+                  <HoverRow image={project.image}>
                     <td className="hidden px-6 py-4 md:block">
                       {project.year}
                     </td>
@@ -59,7 +60,7 @@ const ProjectArchive = () => {
                     <td className="px-6 py-4">
                       <a href={project.link}>{project.link_title}</a>
                     </td>
-                  </tr>
+                  </HoverRow>
                 ))}
               </tbody>
             </table>
