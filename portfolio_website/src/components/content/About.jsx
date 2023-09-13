@@ -50,7 +50,9 @@ const About = () => {
             <CardImage></CardImage>
             <CardText>
               <Link to={"/about_extended"}>
-                <h3 className="link-to-full-display">(Read more)</h3>
+                <h3 className="link-to-full-display hover:opacity-30">
+                  (Read more)
+                </h3>
               </Link>
             </CardText>
           </Card>

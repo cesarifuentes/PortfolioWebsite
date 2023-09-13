@@ -35,7 +35,9 @@ const Experience = () => {
         <CardImage></CardImage>
         <CardText>
           <Link to={"/work_archive"}>
-            <h3 className="link-to-full-display">(See Full Work Experience)</h3>
+            <h3 className="link-to-full-display hover:opacity-30">
+              (See Full Work Experience)
+            </h3>
           </Link>
         </CardText>
       </Card>

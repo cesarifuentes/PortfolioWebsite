@@ -7,6 +7,9 @@ import Card from "../card/Card";
 import CardImage from "../card/CardImage";
 import CardText from "../card/CardText";
 
+import branch from "../../assets/branch.svg";
+import chain from "../../assets/chain.svg";
+
 const Projects = () => {
   return (
     <section>
@@ -26,12 +29,25 @@ const Projects = () => {
               <CardImage
                 image={project.image}
                 alt={`${project.alt}`}
-                // link={project.link}
               ></CardImage>
 
               <CardText>
                 <h5 className="">{project.title}</h5>
                 <p className="mt-2">{project.description}</p>
+                {/* className="container mx-auto w-[207px] h-[24px] sm:ml-0
+                white-filter" */}
+                {project.link ? (
+                  <div className="pt-2 opacity-80 hover:opacity-30">
+                    <a href={project.link}>
+                      <div className="inline-block mr-2 align-middle">
+                        <img src={chain} alt="chain link" />
+                      </div>
+                      <p className="inline-block align-middle">
+                        {project.link_title}
+                      </p>
+                    </a>
+                  </div>
+                ) : null}
               </CardText>
             </Card>
           ) : null}{" "}
@@ -42,7 +58,9 @@ const Projects = () => {
         <CardImage></CardImage>
         <CardText>
           <Link to={"/project_archive"}>
-            <h3 className="link-to-full-display">(See Full Project List)</h3>
+            <h3 className="link-to-full-display hover:opacity-30">
+              (See Full Project List)
+            </h3>
           </Link>
         </CardText>
       </Card>
