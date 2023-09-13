@@ -68,7 +68,7 @@ export const projects = [
     title: "Spotify Arcade",
     year: "2023",
     description:
-      "A full stack web app using the Spotify API that lets friends compete to see who knows each others music taste the best.",
+      "A full stack web app that lets friends compete to see who knows each others music taste the best.",
     link: "",
     link_title: "",
     image: spotify_arcade,

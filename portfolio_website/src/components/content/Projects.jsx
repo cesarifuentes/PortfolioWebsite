@@ -7,8 +7,7 @@ import Card from "../card/Card";
 import CardImage from "../card/CardImage";
 import CardText from "../card/CardText";
 
-import branch from "../../assets/branch.svg";
-import chain from "../../assets/chain.svg";
+import ProjectLink from "../elements/ProjectLink";
 
 const Projects = () => {
   return (
@@ -34,20 +33,11 @@ const Projects = () => {
               <CardText>
                 <h5 className="">{project.title}</h5>
                 <p className="mt-2">{project.description}</p>
-                {/* className="container mx-auto w-[207px] h-[24px] sm:ml-0
-                white-filter" */}
-                {project.link ? (
-                  <div className="pt-2 opacity-80 hover:opacity-30">
-                    <a href={project.link}>
-                      <div className="inline-block mr-2 align-middle">
-                        <img src={chain} alt="chain link" />
-                      </div>
-                      <p className="inline-block align-middle">
-                        {project.link_title}
-                      </p>
-                    </a>
-                  </div>
-                ) : null}
+
+                <ProjectLink
+                  link={project.link}
+                  title={project.link_title}
+                ></ProjectLink>
               </CardText>
             </Card>
           ) : null}{" "}

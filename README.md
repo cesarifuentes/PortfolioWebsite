@@ -2,7 +2,6 @@
   💫 <br> Portfolio Website
 </h1>
 
-
 <p align="center">
   This is my personal website.
   <a href="https://cesarfuentes.com"> Visit it here.</a>
