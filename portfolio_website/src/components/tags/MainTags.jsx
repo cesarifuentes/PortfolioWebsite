@@ -39,7 +39,6 @@ const MainTags = () => {
           content="https://i.postimg.cc/HssSPpV7/raytracer.png"
         />
       </Helmet>
-      ;
     </>
   );
 };

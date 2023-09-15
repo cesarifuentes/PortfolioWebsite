@@ -14,7 +14,7 @@ const ProjectArchive = () => {
   return (
     <>
       <Helmet>
-        <title>View Full Project History</title>
+        <title>CF | Project Archive</title>
         <meta name="title" content="View Full Project History" />
         <meta
           name="description"

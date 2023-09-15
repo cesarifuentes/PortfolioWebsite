@@ -16,7 +16,7 @@ const AboutExtended = () => {
   return (
     <>
       <Helmet>
-        <title>About Me</title>
+        <title>CF | About Me</title>
         <meta name="title" content="About Me" />
         <meta
           name="description"

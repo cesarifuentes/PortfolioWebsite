@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <>
       <Helmet>
-        <title>Resume</title>
+        <title>CF | Resume</title>
         <meta name="title" content="Resume" />
         <meta
           name="description"
