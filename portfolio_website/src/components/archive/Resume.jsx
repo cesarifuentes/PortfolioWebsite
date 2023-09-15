@@ -6,6 +6,7 @@ const Resume = () => {
     <>
       <Helmet>
         <title>Resume</title>
+        <meta name="title" content="Resume" />
         <meta
           name="description"
           content="Cesar Fuentes is a software developer who creates engaging, user-friendly online experiences."

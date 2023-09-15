@@ -15,6 +15,7 @@ const ProjectArchive = () => {
     <>
       <Helmet>
         <title>View Full Project History</title>
+        <meta name="title" content="View Full Project History" />
         <meta
           name="description"
           content="Cesar Fuentes is a software developer who creates engaging, user-friendly online experiences."

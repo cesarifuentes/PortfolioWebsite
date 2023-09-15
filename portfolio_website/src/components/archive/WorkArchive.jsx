@@ -10,6 +10,7 @@ const WorkArchive = () => {
     <>
       <Helmet>
         <title>View Full Work History</title>
+        <meta name="title" content="View Full Work History" />
         <meta
           name="description"
           content="Cesar Fuentes is a software developer who creates engaging, user-friendly online experiences."
