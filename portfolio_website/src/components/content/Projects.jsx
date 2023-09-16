@@ -14,13 +14,13 @@ const Projects = () => {
     <section className="home-section">
       {/* Title */}
       <h4 className="text-center space-btwn-title sm:text-left lg:hidden">
-        Projects
+        Featured Projects
       </h4>
       {/* Projects */}
       {projects.map((project, index) => (
         <div
           key={project.id}
-          className="mb-20 lg:mb-5"
+          className="mb-20 lg:mb-10"
           // group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50
         >
           {project.isFeatured ? (
@@ -49,7 +49,7 @@ const Projects = () => {
         <CardText>
           <Link to={"/project_archive"}>
             <h3 className="link-to-full-display hover:opacity-30">
-              (See Full Project List)
+              (All Projects)
             </h3>
           </Link>
         </CardText>

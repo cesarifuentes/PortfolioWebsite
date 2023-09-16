@@ -16,7 +16,7 @@ const Experience = () => {
       {/* Experiences */}
       {/* TODO: company and date */}
       {experiences.map((experience, index) => (
-        <div key={experience.id} className="mb-20 lg:mb-5">
+        <div key={experience.id} className="mb-20 lg:mb-10">
           {experience.isFeatured ? (
             <Card>
               <CardImage
@@ -27,6 +27,7 @@ const Experience = () => {
               <CardText>
                 <p className="">{experience.date}</p>
                 <h5 className="mt-2">{experience.title}</h5>
+                <p className="mt-2">{experience.description}</p>
               </CardText>
             </Card>
           ) : null}{" "}
@@ -38,7 +39,7 @@ const Experience = () => {
         <CardText>
           <Link to={"/work_archive"}>
             <h3 className="link-to-full-display hover:opacity-30">
-              (See Full Work Experience)
+              (Full Employment History)
             </h3>
           </Link>
         </CardText>

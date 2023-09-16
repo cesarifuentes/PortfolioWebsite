@@ -16,7 +16,7 @@ const About = () => {
       <section className="home-section">
         {/* Title */}
         <h4 className="text-center space-btwn-title sm:text-left lg:hidden">
-          About
+          About Me
         </h4>
 
         <div className="grid content-end paragraph grid-cols">

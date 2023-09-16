@@ -34,6 +34,28 @@ export const socialMedias = [
   },
 ];
 
+import rain from "../assets/packagingIcons/rain.svg";
+import recycle from "../assets/packagingIcons/recycle.svg";
+import trash from "../assets/packagingIcons/trash.svg";
+
+export const packagingIcons = [
+  {
+    id: "icon-2",
+    name: "recycle",
+    icon: recycle,
+  },
+  {
+    id: "icon-3",
+    name: "trash",
+    icon: trash,
+  },
+  {
+    id: "icon-1",
+    name: "rain",
+    icon: rain,
+  },
+];
+
 export const paragraphs = [
   {
     id: "paragraph-1",

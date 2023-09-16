@@ -33,9 +33,16 @@ html {
   width: 100%;
 }
 
+@font-face {
+  font-family: "HN-HeavyExtended";
+  src: local("MyFont"),
+    url(./fonts/HelveticaNeueLTStd83HeavyExtended.otf) format("opentype");
+}
+
 h1 {
   /* Title */
-  font-size: 4rem;
+  font-family: "HN-HeavyExtended";
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -152,8 +159,8 @@ tr {
   display: block;
   visibility: visible;
   position: fixed;
-  left: 20px;
-  bottom: 20px;
+  top: 20px;
+  right: 20px;
   margin-bottom: 20px;
   /* margin-top: auto;
   margin-bottom: auto; */
