@@ -173,7 +173,7 @@ export const projects = [
     title: "Tea Party",
     year: "2022",
     description:
-      "An opengl project involving dynamic geometry, deferred rendering, and attenuated lights.",
+      "An OpenGL project involving dynamic geometry, deferred rendering, and attenuated lights.",
     image: teaparty,
     alt: "rotating bunnies sheering teapots and bouncing spheres with lights spinning around the room",
     tools: ["C++", "OpenGL", "Xcode"],

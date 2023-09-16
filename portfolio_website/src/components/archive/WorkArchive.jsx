@@ -22,8 +22,8 @@ const WorkArchive = () => {
           <section className="py-20">
             {/* Title */}
             <Link to={"/"}>
-              <h5 className="text-center hover:opacity-30">
-                &lt;&lt; Return Home &gt;&gt;
+              <h5 className="mb-3 text-center hover:opacity-30">
+                (Return Home)
               </h5>
             </Link>
             <h1 className="pb-10 text-center space-btwn-title">
