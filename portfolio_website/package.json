@@ -18,7 +18,8 @@
     "react-helmet-async": "^1.3.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "^5.0.1",
-    "react-typewriter-effect": "^1.1.0"
+    "react-typewriter-effect": "^1.1.0",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

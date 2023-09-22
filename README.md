@@ -28,20 +28,34 @@
 
 ## 🛠️ Installation & Start Up
 
-1. Use the package manager [npm](https://www.npmjs.com) to install Tailwind. Then, run the application.
+1. Use the package manager [npm](https://www.npmjs.com) to install Tailwind.
+
+2. Open a terminal and run the application.
 
    ```
    cd portfolio_website
    npm run dev -- --host
    ```
 
-2. Make dist folder for distribution.
-
-   ```
-   npm run build
-   ```
-
 3. Open the local host or network links that appear in the terminal.
+
+## 🌐 Uploading to Hostinger
+
+1. If you're changing any navigation links...
+
+- update `listofurls.txt`
+- run the following command
+- replace the `sitemap.xml` code
+
+```
+npx sitemap < listofurls.txt
+```
+
+2. Update the dist folder for distribution.
+
+```
+npm run build
+```
 
 ## 🫱‍🫲 Contributing
 
