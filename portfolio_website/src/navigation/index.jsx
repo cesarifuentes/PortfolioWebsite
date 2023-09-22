@@ -16,6 +16,9 @@ const Navigation = () => {
           <Route path="/work_archive" element={<WorkArchive />} />
           <Route path="/about_extended" element={<AboutExtended />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<AboutExtended />} />
+          <Route path="/projects" element={<ProjectArchive />} />
+          <Route path="/experience" element={<WorkArchive />} />
         </Routes>
       </BrowserRouter>
     </>
