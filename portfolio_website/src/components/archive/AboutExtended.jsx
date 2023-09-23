@@ -17,7 +17,7 @@ const AboutExtended = () => {
     <>
       <Helmet>
         <title>CF | About Me</title>
-        <meta name="title" content="About Me" />
+        <meta name="title" content="View Full Biography" />
         <meta
           name="description"
           content="Cesar Fuentes is a software developer who creates engaging, user-friendly online experiences."

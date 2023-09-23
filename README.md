@@ -99,6 +99,7 @@ I want to ackowledge the individuals whose websites served as sources of inspira
 - [ ] Add Ebbi Project
 - [ ] Clean up code comments
 - [ ] Organize documentation for older projects
+- [ ] Github links in project list
 
 ## 🪲 Known Problems
 
