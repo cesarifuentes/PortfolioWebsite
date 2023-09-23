@@ -16,7 +16,7 @@ const AboutExtended = () => {
   return (
     <>
       <Helmet>
-        <title>CF | About Me</title>
+        <title>Cesar Fuentes | About Me</title>
         <meta name="title" content="View Full Biography" />
         <meta
           name="description"

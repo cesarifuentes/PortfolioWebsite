@@ -14,7 +14,7 @@ const ProjectArchive = () => {
   return (
     <>
       <Helmet>
-        <title>CF | Project List</title>
+        <title>Cesar Fuentes | Project List</title>
         <meta name="title" content="View Full Project List" />
         <meta
           name="description"

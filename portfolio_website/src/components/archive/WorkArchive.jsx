@@ -9,7 +9,7 @@ const WorkArchive = () => {
   return (
     <>
       <Helmet>
-        <title>CF | Work History</title>
+        <title>Cesar Fuentes | Work History</title>
         <meta name="title" content="View Full Work History" />
         <meta
           name="description"
